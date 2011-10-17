@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Subversion 1.5 vyd\xC3\xA1n!"
+title: "Subversion 1.5 vydán!"
 published: true
 meta: {}
 

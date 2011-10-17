@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: "Zend Studio NEON beta - pokra\xC4\x8Dov\xC3\xA1n\xC3\xAD"
+title: "Zend Studio NEON beta - pokračování"
 published: true
-meta: 
-  blogger_author: abtris
-  blogger_blog: abtris.blogspot.com
-  blogger_permalink: /2007/10/zend-studio-neon-beta-nedvno-vyla-beta.html
 tags: 
 - php
 type: post

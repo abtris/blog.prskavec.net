@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xC3\x9Apln\xC3\xA1 lokalizace WP Theme iNove 1.2.3"
+title: "Úplná lokalizace WP Theme iNove 1.2.3"
 published: true
 meta: 
   _encloseme: "1"

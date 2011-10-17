@@ -2,8 +2,6 @@
 layout: post
 title: StatSVN a FishEYE
 published: true
-meta: 
-  _edit_last: "1"
 tags: 
 - internet
 - scm

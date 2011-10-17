@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xC4\x8Cesk\xC3\xA1 verze plugin\xC5\xAF pro Wordpress"
+title: "Česká verze pluginů pro Wordpress"
 published: true
 meta: 
   _encloseme: "1"

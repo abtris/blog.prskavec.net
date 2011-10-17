@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Zend Framework 1.6 a moje zku\xC5\xA1enosti s Dojo TabContainer"
+title: "Zend Framework 1.6 a moje zkušenosti s Dojo TabContainer"
 published: true
 meta: 
   _edit_last: "1"

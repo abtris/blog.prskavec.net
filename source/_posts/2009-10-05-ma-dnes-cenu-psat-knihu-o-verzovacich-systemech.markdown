@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: "M\xC3\xA1 dnes cenu ps\xC3\xA1t knihu o verzovac\xC3\xADch syst\xC3\xA9mech?"
+title: "Má dnes cenu psát knihu o verzovacích systémech?"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _pingme: "1"
 tags: 
 - git
 - mercurial

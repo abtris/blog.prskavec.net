@@ -2,8 +2,6 @@
 layout: post
 title: on Air Tour v Praze
 published: true
-meta: {}
-
 tags: 
 - adobe
 - adobe air

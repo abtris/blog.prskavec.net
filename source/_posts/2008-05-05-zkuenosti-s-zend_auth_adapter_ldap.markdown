@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Zku\xC5\xA1enosti s Zend_Auth_Adapter_Ldap"
+title: "Zkušenosti s Zend_Auth_Adapter_Ldap"
 published: true
 meta: 
   _edit_last: "1"

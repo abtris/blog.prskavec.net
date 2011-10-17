@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: "9 a p\xC5\xAFl t\xC3\xBDdne s Androidem"
+title: "9 a půl týdne s Androidem"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _pingme: "1"
 tags: 
 - android
 - g1

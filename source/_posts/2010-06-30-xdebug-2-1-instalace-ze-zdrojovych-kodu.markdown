@@ -1,12 +1,7 @@
 --- 
 layout: post
-title: "Xdebug 2.1 instalace ze zdrojov\xC3\xBDch k\xC3\xB3d\xC5\xAF"
+title: "Xdebug 2.1 instalace ze zdrojových kódů"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _wp_old_slug: ""
-  _pingme: "1"
 tags: 
 - php
 - xdebug

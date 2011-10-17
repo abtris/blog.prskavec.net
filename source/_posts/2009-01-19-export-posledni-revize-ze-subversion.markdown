@@ -1,9 +1,7 @@
 --- 
 layout: post
-title: "Export posledn\xC3\xAD revize ze Subversion"
+title: "Export poslední revize ze Subversion"
 published: true
-meta: 
-  _edit_last: "1"
 tags: 
 - linux
 - subversion

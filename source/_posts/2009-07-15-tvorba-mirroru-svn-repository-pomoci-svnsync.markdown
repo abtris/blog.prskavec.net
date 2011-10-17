@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Tvorba mirroru SVN repository pomoc\xC3\xAD svnsync"
+title: "Tvorba mirroru SVN repository pomocí svnsync"
 published: true
 meta: 
   _encloseme: "1"

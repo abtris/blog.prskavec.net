@@ -1,14 +1,9 @@
 --- 
 layout: post
-title: "Adblock nen\xC3\xAD vra\xC5\xBEda, ale zkuste si ho nechat zapnut\xC3\xBD!"
+title: "Adblock není vražda, ale zkuste si ho nechat zapnutý!"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _wp_old_slug: ""
-  _pingme: "1"
 tags: 
-- "ostatn\xC3\xAD"
+- "web"
 type: post
 status: publish
 ---

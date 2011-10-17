@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "IE 8 bug s cookie a dom\xC3\xA9nou jobs.cz"
+title: "IE 8 bug s cookie a doménou jobs.cz"
 published: true
 meta: 
   _encloseme: "1"

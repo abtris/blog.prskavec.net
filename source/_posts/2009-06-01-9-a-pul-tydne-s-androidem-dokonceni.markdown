@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "9 a p\xC5\xAFl t\xC3\xBDdne s Androidem dokon\xC4\x8Den\xC3\xAD"
+title: "9 a pů týdne s Androidem dokončení"
 published: true
 meta: 
   _encloseme: "1"

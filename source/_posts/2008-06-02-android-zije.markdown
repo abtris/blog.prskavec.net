@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: "Android \xC5\xBEije!"
+title: "Android žije!"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _pingme: "1"
 tags: 
 - mobil
 type: post

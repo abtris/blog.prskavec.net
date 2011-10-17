@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Zend Framework 1.6 a ajax pomoc\xC3\xAD jQuery"
+title: "Zend Framework 1.6 a ajax pomocí jQuery"
 published: true
 meta: 
   _edit_last: "1"

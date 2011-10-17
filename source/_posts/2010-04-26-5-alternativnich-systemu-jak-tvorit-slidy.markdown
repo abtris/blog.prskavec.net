@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "5 alternativn\xC3\xADch syst\xC3\xA9m\xC5\xAF jak tvo\xC5\x99it slidy"
+title: "5 alternativních systémů jak tvořit slidy"
 published: true
 meta: 
   _encloseme: "1"

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Subversion a dal\xC5\xA1\xC3\xAD hr\xC3\xA1tky s n\xC3\xADm pod Windows"
+title: "Subversion a další hrátky s ním pod Windows"
 published: true
 meta: 
   _use_texy: "1"

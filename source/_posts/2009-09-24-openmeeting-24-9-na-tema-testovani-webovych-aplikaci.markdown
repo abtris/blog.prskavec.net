@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "OpenMeeting 24.9. na t\xC3\xA9ma Testov\xC3\xA1n\xC3\xAD webov\xC3\xBDch aplikac\xC3\xAD"
+title: "OpenMeeting 24.9. na téma Testování webových aplikací"
 published: true
 meta: 
   _encloseme: "1"

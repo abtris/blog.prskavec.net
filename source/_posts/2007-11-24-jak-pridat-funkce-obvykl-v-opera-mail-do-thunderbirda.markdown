@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Jak p\xC5\x99idat funkce obvykl\xC3\xA9 v Opera Mail do Thunderbirda"
+title: "Jak přidat funkce obvyklé v Opera Mail do Thunderbirda"
 published: true
 meta: 
   _use_texy: "1"

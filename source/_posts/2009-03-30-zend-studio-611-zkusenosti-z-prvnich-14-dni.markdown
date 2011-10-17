@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Zend Studio 6.1.1. zku\xC5\xA1enosti z prvn\xC3\xADch 14 dn\xC3\xAD"
+title: "Zend Studio 6.1.1. zkušenosti z prvních 14 dní"
 published: true
 meta: 
   _encloseme: "1"

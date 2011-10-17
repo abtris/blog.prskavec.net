@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: "Pro\xC4\x8D jsem p\xC5\x99e\xC5\xA1el z Mercurial na Git"
+title: "Proč jsem přešel z Mercurial na Git"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _pingme: "1"
 tags: 
 - git
 - mercurial

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "WebCamp'08 - stru\xC4\x8Dn\xC4\x9B"
+title: "WebCamp'08"
 published: true
 meta: 
   _use_texy: "1"

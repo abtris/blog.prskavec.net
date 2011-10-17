@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: "Jednoduch\xC3\xA1 aplikace v PHP a Flex"
+title: "Jednoduchá aplikace v PHP a Flex"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _pingme: "1"
 tags: 
 - adobe
 - adobe air

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Co m\xC4\x9B zaujalo na ZendConu 2009"
+title: "Co mě zaujalo na ZendConu 2009"
 published: true
 meta: 
   _encloseme: "1"

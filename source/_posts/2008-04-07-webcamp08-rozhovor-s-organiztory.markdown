@@ -1,12 +1,7 @@
 --- 
 layout: post
-title: "WebCamp'08 rozhovor s organiz\xC3\xA1tory"
+title: "WebCamp'08 rozhovor s organizátory"
 published: true
-meta: 
-  _use_texy: "1"
-  _encloseme: "1"
-  _edit_last: "1"
-  _pingme: "1"
 tags: 
 - internet
 - php

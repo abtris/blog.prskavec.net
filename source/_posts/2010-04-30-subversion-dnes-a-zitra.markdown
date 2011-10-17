@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Subversion dnes a z\xC3\xADtra"
+title: "Subversion dnes a zítra"
 published: true
 meta: 
   _encloseme: "1"

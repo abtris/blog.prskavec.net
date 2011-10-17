@@ -1,9 +1,7 @@
 --- 
 layout: post
-title: "a t\xC5\x99i videa ode mne"
+title: "a tři videa ode mne"
 published: true
-meta: 
-  _edit_last: "1"
 tags: 
 - "ostatn\xC3\xAD"
 type: post

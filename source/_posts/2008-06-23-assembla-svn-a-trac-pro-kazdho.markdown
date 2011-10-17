@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Assembla: SVN a Trac pro ka\xC5\xBEd\xC3\xA9ho"
+title: "Assembla: SVN a Trac pro každého"
 published: true
 meta: 
   _encloseme: "1"

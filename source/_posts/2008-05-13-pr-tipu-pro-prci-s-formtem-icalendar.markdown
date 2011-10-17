@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: "P\xC3\xA1r tip\xC5\xAF pro pr\xC3\xA1ci s form\xC3\xA1tem iCalendar"
+title: "Pár tipů pro práci s formátem iCalendar"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _pingme: "1"
 tags: 
 - internet
 - php

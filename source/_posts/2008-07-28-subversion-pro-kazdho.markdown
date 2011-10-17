@@ -1,9 +1,7 @@
 --- 
 layout: post
-title: "Subversion pro ka\xC5\xBEd\xC3\xA9ho"
+title: "Subversion pro každého"
 published: true
-meta: 
-  _edit_last: "1"
 tags: 
 - scm
 - subversion

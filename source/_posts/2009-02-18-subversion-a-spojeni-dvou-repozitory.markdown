@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Subversion a spojen\xC3\xAD dvou repozitory"
+title: "Subversion a spojení dvou repozitory"
 published: true
 meta: 
   _encloseme: "1"

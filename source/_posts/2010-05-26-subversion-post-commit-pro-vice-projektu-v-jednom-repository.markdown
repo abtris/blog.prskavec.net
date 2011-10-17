@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Subversion post-commit pro v\xC3\xADce projekt\xC5\xAF v jednom repository"
+title: "Subversion post-commit pro více projektů v jednom repository"
 published: true
 meta: 
   _encloseme: "1"

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Jak na v\xC3\xBDpadek slu\xC5\xBEby Twitter p\xC5\x99i pou\xC5\xBEit\xC3\xAD Zend_Service_Twitter"
+title: "Jak na výpadek služby Twitter při použití Zend_Service_Twitter"
 published: true
 meta: 
   _encloseme: "1"

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "AnkhSVN 2.0 je kone\xC4\x8Dn\xC4\x9B fin\xC3\xA1ln\xC3\xAD"
+title: "AnkhSVN 2.0 je konečně finální"
 published: true
 meta: {}
 

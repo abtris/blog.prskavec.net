@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "WP-EasyArchives 1.0.2 kone\xC4\x8Dn\xC4\x9B tak\xC3\xA9 v \xC4\x8Desk\xC3\xA9 verzi"
+title: "WP-EasyArchives 1.0.2"
 published: true
 meta: 
   _encloseme: "1"
