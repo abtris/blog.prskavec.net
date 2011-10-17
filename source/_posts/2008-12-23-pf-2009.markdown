@@ -1,0 +1,13 @@
+--- 
+layout: post
+title: PF 2009
+published: true
+meta: 
+  _edit_last: "1"
+tags: 
+- "ostatn\xC3\xAD"
+- pf
+type: post
+status: publish
+---
+<div align="center"><img style="max-width: 800px;" src="http://blog.prskavec.net/wp-content/uploads/2008/12/pf2009.png" /><br />Přejí veselé vánoce a šťasný nový rok také čtenářům mého blogu.<br /></div>

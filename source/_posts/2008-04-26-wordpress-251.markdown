@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: Wordpress 2.5.1
+published: true
+meta: 
+  _edit_last: "1"
+tags: 
+- wordpress
+type: post
+status: publish
+---
+Nová aktualizace se objevila brzo po předchozí verzi, ale opravuje <a href="http://trac.wordpress.org/query?status=closed&amp;milestone=2.5.1&amp;resolution=fixed&amp;order=priority">mnoho bezpečnostních chyb</a> a proto nezapomeňte provést aktualizaci.
