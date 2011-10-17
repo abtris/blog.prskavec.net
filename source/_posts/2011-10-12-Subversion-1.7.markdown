@@ -1,10 +1,9 @@
 --- 
 layout: post
 title: Subversion 1.7
-published: true
-tags: 
-type: post
-status: publish
+comments: true
+categories:
+
 ---
 
 ## Dlouhé čekání na nový Subversion

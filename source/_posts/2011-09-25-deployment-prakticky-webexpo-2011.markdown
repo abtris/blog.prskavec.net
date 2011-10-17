@@ -1,18 +1,11 @@
 --- 
 layout: post
 title: Deployment prakticky - WebExpo 2011
-published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  wpsd_autopost: "1"
-  _pingme: "1"
-tags: 
+comments: true
+categories:
 - continuous integration
 - konference
 - webexpo2011
-type: post
-status: publish
 ---
 Letos jsem přednášel na Webexpu na téma deployment. Ve 30 minutách se nedá říci dost, aby jste se dozvěděli všechno tak zkusím v tomto článku shrnout o čem jsem mluvil a přidat nějaké zdroje, které pomůžou v dalších úsilí při automatizaci deploymentu.
 

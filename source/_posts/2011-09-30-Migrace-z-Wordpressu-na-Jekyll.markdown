@@ -1,12 +1,10 @@
 --- 
 layout: post
 title: Migrace z Wordpressu na Jekyll
-published: true
-tags: 
+comments: true
+categories:
 - wordpress
 - jekyll
-type: post
-status: publish
 ---
 ## Co jsem řešil
 
