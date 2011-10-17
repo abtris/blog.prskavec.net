@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Zend Framework a NoSQL pro ukl\xC3\xA1d\xC3\xA1n\xC3\xAD log\xC5\xAF ve webov\xC3\xBDch aplikac\xC3\xAD, druh\xC3\xBD d\xC3\xADl o MongoDb"
+title: "Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl druhý o MongoDb"
 published: true
 meta: 
   _encloseme: "1"

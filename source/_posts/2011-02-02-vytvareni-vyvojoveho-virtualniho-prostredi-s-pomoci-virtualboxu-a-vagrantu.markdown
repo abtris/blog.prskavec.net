@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Vytv\xC3\xA1\xC5\x99en\xC3\xAD v\xC3\xBDvojov\xC3\xA9ho virtu\xC3\xA1ln\xC3\xADho prost\xC5\x99ed\xC3\xAD s pomoc\xC3\xAD VirtualBoxu a Vagrantu"
+title: "Vytváření vývojového Virtuálního prostředí pomocí VirtualBoxu a Vagrantu"
 published: true
 meta: 
   _encloseme: "1"

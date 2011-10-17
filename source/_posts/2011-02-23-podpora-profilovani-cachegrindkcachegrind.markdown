@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Podpora profilov\xC3\xA1n\xC3\xAD cachegrind/KCachegrind v Xdebugu"
+title: "Podpora profilování cachegrind/KCachegrind v Xdebugu"
 published: true
 meta: 
   _encloseme: "1"

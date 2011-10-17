@@ -7,9 +7,7 @@ meta:
   _rss_digest_post: "1"
   _pingme: "1"
 tags: 
-- digest
-- "ostatn\xC3\xAD"
-type: post
+- digesttype: post
 status: publish
 ---
 <ul class="scrd_digest">

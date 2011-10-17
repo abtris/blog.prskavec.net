@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "PHPStorm 2.0 - nov\xC3\xA1 verze multiplatformn\xC3\xADho v\xC3\xBDvojov\xC3\xA9ho prost\xC5\x99ed\xC3\xAD"
+title: "PHPStorm 2.0 - nová verze multiplatformního vývojového prostředí"
 published: true
 meta: 
   _encloseme: "1"

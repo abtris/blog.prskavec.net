@@ -8,7 +8,6 @@ meta:
   _pingme: "1"
 tags: 
 - digest
-- "ostatn\xC3\xAD"
 type: post
 status: publish
 ---

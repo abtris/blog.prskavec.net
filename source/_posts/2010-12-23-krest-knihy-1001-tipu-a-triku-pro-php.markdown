@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "K\xC5\x99est knihy 1001 tip\xC5\xAF a trik\xC5\xAF pro PHP"
+title: "Křest knihy 1001 tipů a triků pro PHP"
 published: true
 meta: 
   _encloseme: "1"

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Input checkbox v Firefoxu, Ope\xC5\x99e a v IE"
+title: "Input checkbox v Firefoxu, Opeře a v IE"
 published: true
 meta: 
   _use_texy: "1"

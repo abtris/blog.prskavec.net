@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Upgrade Androidu na T-mobile G1 z 1.6 na 2.2 (aktualizov\xC3\xA1no 22.3.2011)"
+title: "Upgrade Androidu na T-mobile G1 z 1.6 na 2.2 (aktualizováno 22.3.2011)"
 published: true
 meta: 
   _encloseme: "1"

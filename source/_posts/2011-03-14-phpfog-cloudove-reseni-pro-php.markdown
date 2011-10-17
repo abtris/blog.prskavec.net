@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: "phpfog - cloudov\xC3\xA9 \xC5\x99e\xC5\xA1en\xC3\xAD pro PHP?"
+title: "phpfog - cloudové řešení pro PHP?"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _pingme: "1"
 tags: 
 - cloud
 - php

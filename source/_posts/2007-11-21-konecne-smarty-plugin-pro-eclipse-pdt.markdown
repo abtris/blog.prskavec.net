@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Kone\xC4\x8Dn\xC4\x9B Smarty plugin pro Eclipse PDT"
+title: "Konečně Smarty plugin pro Eclipse PDT"
 published: true
 meta: 
   _use_texy: "1"

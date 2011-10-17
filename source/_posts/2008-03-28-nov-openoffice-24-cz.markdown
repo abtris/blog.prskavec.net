@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Nov\xC3\xA9 OpenOffice 2.4 CZ"
+title: "Nový OpenOffice 2.4 CZ"
 published: true
 meta: 
   _use_texy: "1"

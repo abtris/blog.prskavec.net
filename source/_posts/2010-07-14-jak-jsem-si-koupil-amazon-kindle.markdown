@@ -10,7 +10,6 @@ meta:
 tags: 
 - ebook
 - kindle
-- "ostatn\xC3\xAD"
 type: post
 status: publish
 ---

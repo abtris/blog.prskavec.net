@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: "Tvorba \xC4\x8D\xC3\xA1rov\xC3\xA9ho k\xC3\xB3du v PHP"
+title: "Tvorba čárového kódu v PHP"
 published: true
-meta: 
-  _encloseme: "1"
-  _edit_last: "1"
-  _pingme: "1"
 tags: 
 - barcode
 - php

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Webexpo 2010 - Na co p\xC5\xAFjdu na konferenci"
+title: "Webexpo 2010 - Na co půjdu na konferenci"
 published: true
 meta: 
   _encloseme: "1"

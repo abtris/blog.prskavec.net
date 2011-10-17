@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Zend Framework a NoSQL pro ukl\xC3\xA1d\xC3\xA1n\xC3\xAD log\xC5\xAF ve webov\xC3\xBDch aplikac\xC3\xAD, prvn\xC3\xAD d\xC3\xADl o CouchDb"
+title: "Zend Framework a NoSQL pro ukládání logů ve webových aplikací, díl prvnío CouchDb"
 published: true
 meta: 
   _encloseme: "1"
