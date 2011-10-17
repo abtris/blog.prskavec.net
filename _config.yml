@@ -2,14 +2,14 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://blog.prskavec.net
+title: Prskavčí blog
+subtitle: Jen další blog o všem možné, teď od Prskavců.
+author: Ladislav Prskavec
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /blog/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -19,10 +19,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /blog
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/blog
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
@@ -51,13 +51,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: abtris
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: abtris
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -81,7 +81,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-79221-21
    
 # Facebook Like
 facebook_like: true   
