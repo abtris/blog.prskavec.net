@@ -4,7 +4,7 @@
 {% capture was_updated %}{{ updated | size }}{% endcapture %}
 
 {% if has_date != '0' %}
-  {% capture time %}<time datetime="{{ date | datetime | date_to_xmlschema }}" pubdate {% if updated %} data-updated="true" {% endif %}>{{ date | ordinalize }}</time>{% endcapture %}
+  {% capture time %}<time datetime="{{ date | datetime | date_to_xmlschema }}" pubdate {% if updated %} data-updated="true" {% endif %}>{{ date | datetime | date:"%d.%m.%Y" }}</time>{% endcapture %}
 {% endif %}
 
 {% if was_updated != '0' %}
