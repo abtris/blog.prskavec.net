@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Přednášky
+layout: page
+title: Školení
 ---
 
 ## Subversion - školení
