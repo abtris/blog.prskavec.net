@@ -80,7 +80,7 @@ Ukázka webkitdirectory a drag and drop pro práci se soubory v Chrome. Ukázka 
 
 Slidy [http://bit.ly/nrjLs7](http://bit.ly/nrjLs7).
 
-Reportáž zkončila.
+Reportáž skončila.
 
 ## Shodnocení GDD 2011
 
@@ -88,7 +88,7 @@ Později jsem se vrátil na GDD bohužel až na Ignite, ale ty rozhodně stály 
 
 Jinak celkem dobrá organizace, trochu registrace vázla, když člověk přišel později. Celkově jsem potkal spoustu lidí, které vidím jen tady.
 
-Za mě jediné přání do dalšího roku, líbil by se mi například Vojta Jína nebo někdo s týmu AngularJS a nějaký workshop s nimi ať na GDD nebo mimo.
+Za mě jediné přání do dalšího roku, líbil by se mi například [Vojta Jína](https://github.com/vojtajina) nebo někdo s týmu [AngularJS](http://angularjs.org/) a nějaký workshop s nimi ať na GDD nebo mimo.
 
 
 
