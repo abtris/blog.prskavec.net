@@ -35,11 +35,20 @@ Budík - umí měřit spánkové cykly. Umí nahrávat spánkovou aktivitu i zvu
 10:10 Mano Marks a Jarda Bengl - Google Maps
 První Google Maps Mashup - [http://housingmaps.com](http://housingmaps.com). Google Fusion Tables - [demo s populací evropy](http://mano-demos.googlecode.com/svn/trunk/demos/europepopsliders.html). WebGL v mapách, klikněte vlevo dole vyzkoušet něco nového a mapy se přepnou do WebGL. Úžasné celé vektorové mapy místo obrázků a 3D budovy v normálních mapách provázání s satelitní mapou (ukázky New York, Rome, Venice).
 
+{% img center /assets/googlemaps_webgl_1.png 'Venice' %}
+<center>Ukázka Venice, kde je vidět vektory a 3D domy.</center>
+
+{% img center /assets/googlemaps_webgl_2.png 'Rome' %}
+<center>Při zoomu jsou některé budovy vidět v náhledu 45 stupňů.</center>
+
+{% img center /assets/googlemaps_webgl_3.png 'Rome' %}
+<center>A dá se s nimi i otáčet.</center>
+
 10:24 Cloud, webová verze Angry Birds používá (GWT, HTML5, Google Plus, App Engine). Mobilní hry často App Engine používání na backendu (např. TapZoo). App Engine pro Google Doodles ([ukázka](http://www.google.com/logos/2011/lespaul.html), záznamy za 2 dny nahráli uživatelé několik let záznamů.
 
-Google Cloud Storage, Google Prediction API jdou do provozu z Labs.
+[Google Cloud Storage](http://code.google.com/apis/storage/), [Google Prediction API](http://code.google.com/apis/predict/) jdou do provozu z Labs.
 
-Google Cloud SQL uvádějí jako novinku. Iein Valdez uvedl demo. Použije se JDBC driver pro Google Cloud SQL (GCSQL). Ukázka na App Engine byla v Javě a PHP.
+[Google Cloud SQL](http://code.google.com/apis/sql/) uvádějí jako novinku. Iein Valdez uvedl demo. Použije se JDBC driver pro Google Cloud SQL (GCSQL). Ukázka na App Engine byla v Javě a PHP.
 
 10:40 Google Plus s Circles, Hangouts, Mobile. Novinky přidávájí stále a během 90 dnů od spuštění přidali přes 100 novinek. Teď mají kolem 40M uživatelů a 3,4 mld. fotek. Plugins (+1 button), anotace pro vaše výsledky hledání. APIs (RESTful, JSON, OAuth2) a knihovny pro všechny běžné jazyky ([Google Apis Explorer](https://code.google.com/apis/explorer). 
 
