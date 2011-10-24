@@ -99,7 +99,8 @@ Jinak celkem dobrá organizace, trochu registrace vázla, když člověk přiše
 
 Za mě jediné přání do dalšího roku, líbil by se mi například [Vojta Jína](https://github.com/vojtajina) nebo někdo s týmu [AngularJS](http://angularjs.org/) a nějaký workshop s nimi ať na GDD nebo mimo.
 
-
+## Update 24.10.2011
+K dispozici jsou [všechny videa](http://www.youtube.com/watch?v=1Xn6CfJ713g&feature=list_related&playnext=1&list=SP64D87C03BA3B2A88). Úžasné!
 
 
 
