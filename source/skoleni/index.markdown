@@ -3,6 +3,9 @@ layout: page
 title: Školení
 ---
 
+## Jenkins – použití Continuous Integration engine pro PHP
+Ve spolupráci s [WebExpo Academy](http://webexpo.cz/blog/pilotni-program-webexpo-academy-startuje/#prskavec) jsem připravil školení na použití Jenkins (dříve Hudson). Touto problematikou se zabývám již 3 roky. Dozvíte se, jak Jenkins nainstalovat, jak ověřovat kvalitu softwarového produktu, jak řešit spouštění automatických testů, jak testovat coding standard, jaké si stanovovat softwarové metriky či jak kontinuálně deployovat vaše průběžné výsledky.
+
 ## Subversion - školení
 Verzovací systémy jsou dnes součástí práce každého programátora a nejen jeho. Všude kde potřebujete mít historii toho kdo co v kterém souboru změnil, na to se hodí verzovací systémy. Soubory mohou obsahovat programový kód, html, texty, účetní záznamy, matematické a jiné technické informace.
 
