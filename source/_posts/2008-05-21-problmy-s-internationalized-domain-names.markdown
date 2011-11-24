@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Probl\xC3\xA9my s Internationalized domain names"
+title: "Problémy s Internationalized domain names"
 published: true
 meta: 
   _encloseme: "1"
