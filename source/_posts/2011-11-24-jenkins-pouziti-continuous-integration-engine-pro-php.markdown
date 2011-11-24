@@ -6,10 +6,7 @@ comments: true
 categories: 
 ---
 
-
-# Jenkins – použití Continuous Integration engine pro PHP, WebExpo Academy
-
-## Osnova školení
+## Osnova školení pro WebExpo Academy
 
 - Automatizace buildu 
 - Instalace Jenkins
