@@ -30,7 +30,7 @@ Termín: pátek 16. 12. 2011 10:00 – 18:00
 
 Cena 4 490,- Kč. V prosinci jen za 2 290,- Kč!
 
-Kapacita: Zbývají 3 místa.
+Kapacita: Zbývají 2 místa.
 
 Objednávky: <a href="mailto:academy@webexpo.net">academy@webexpo.net</a>, +420 775 477 457
 
