@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Barcamp Vsetín 2012 - Budou učebnice  v budoucnosti jen elektronické?"
+title: "Barcamp Vsetín 2012 - Budou učebnice v budoucnosti jen elektronické?"
 date: 2012-02-05 08:03
 comments: true
 categories: barcamp ibooks
