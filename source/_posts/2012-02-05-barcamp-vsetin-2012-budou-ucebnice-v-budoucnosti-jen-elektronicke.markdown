@@ -51,6 +51,8 @@ Po tom co nahrajete knihu pres iTunes producer a Apple ji schválí (cca 1 týde
 
 {% img center /assets/sales_and_trends1.jpg 'iTunesConnect' %}
 
+{% img center /assets/sales_and_trends2.jpg 'iTunesConnect2' %}
+
 Jako asi [první česká kniha ve formátu](http://itunes.apple.com/cz/book/subversion/id498008712?mt=11) iBooks2 stažená více jak 15 kusů je vlastně bestseller jak říkala ve své přednášce Olga.
 
 {% img center /assets/cite-nofreeusernames.jpg 'cite barcamp vsetin 2012' %}
