@@ -63,7 +63,9 @@ Určitě chci doporučit pokud chcete knihu vydat sami, tohle je cesta. Sice je 
 
 Celý Barcamp ve Vsetíně byl skvělá akce a děkuji organizátorům za letošní ročník.
 
+### Video z přednášky
 
+<iframe src="http://player.vimeo.com/video/36430257?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><p><a href="http://vimeo.com/36430257">Ladislav Prskavec</a> from <a href="http://vimeo.com/user3006694">Michal Berg</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
 
 
 
