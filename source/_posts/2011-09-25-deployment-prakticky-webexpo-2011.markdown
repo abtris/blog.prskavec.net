@@ -305,3 +305,9 @@ Chef
 	<li>Jedině automatizací se vyhnete chybám. Každý ruční postup jednou selže.</li>
 	<li>Uspoříte velké náklady, protože čas ztraceny deploymentem nepřináší žádný zisk.</li>
 </ul>
+
+{% blockquote Ladislav Prskavec - Kurz Jenkins http://webexpo.cz/academy/kurzy/jenkins-jak-na-continuous-integration-v-php WebExpo Academy %}
+<h4>Jenkins - jak na Continuous Integration v PHP</h4>
+Pochopení a využití procesu Continuous Integration s využitím nástroje Jenkins vám pomůže zvýšit kvalitu softwaru, který vyvíjíte, a zároveň snížit čas na jeho dodávku. Continuous Integration vám umožňuje kontrolovat kvalitu softwaru průběžně po malých částech a minimalizovat tak riziko rozsáhlých chyb, jak tomu bylo v případě klasického vodopádového přístupu.
+{% endblockquote %}
+
