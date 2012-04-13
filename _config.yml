@@ -71,7 +71,7 @@ twitter_tweet_count: 9
 twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
@@ -98,4 +98,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id: UA-79221-21
 
 # Facebook Like
-facebook_like: true
+facebook_like: false
