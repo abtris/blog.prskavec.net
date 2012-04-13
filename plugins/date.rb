@@ -1,5 +1,24 @@
+# encoding: utf-8
+
 module Octopress
   module Date
+
+    MONTHNAMES_TR = [nil,
+      "Leden", "Únor", "Březen", "Duben", "Květen", "Červen",
+      "Červenec", "Srpen", "Září", "Říjen", "Listopad", "Prosinec"
+    ]
+    ABBR_MONTHNAMES_TR = [nil,
+      "Led", "Úno", "Bře", "Dub", "Kvě", "Črv",
+      "Čer", "Srp", "Zář", "Říj", "Lis", "Pro"
+    ]
+    DAYNAMES_TR = [
+      "Neděle", "Pondělí", "Úterý", "Středa",
+      "Čtvrtek", "Pátek", "Sobota"
+    ]
+    ABBR_DAYNAMES_TR = [
+      "Ne", "Po", "Út", "St",
+      "Čt", "Pá", "So"
+    ]
 
     # Returns a datetime if the input is a string
     def datetime(date)
@@ -11,8 +30,9 @@ module Octopress
 
     # Returns an ordidinal date eg July 22 2007 -> July 22nd 2007
     def ordinalize(date)
-      date = datetime(date)
-      "#{date.strftime('%b')} #{ordinal(date.strftime('%e').to_i)}, #{date.strftime('%Y')}"
+      format_date(date, "%d. %m. %Y") # Aralık 26 Pazartesi, 2011
+      # date = datetime(date)
+      # "#{date.strftime('%b')} #{ordinal(date.strftime('%e').to_i)}, #{date.strftime('%Y')}"
     end
 
     # Returns an ordinal number. 13 -> 13th, 21 -> 21st etc.
@@ -36,8 +56,13 @@ module Octopress
       if format.nil? || format.empty? || format == "ordinal"
         date_formatted = ordinalize(date)
       else
+        format.gsub!(/%a/, ABBR_DAYNAMES_TR[date.wday])
+        format.gsub!(/%A/, DAYNAMES_TR[date.wday])
+        format.gsub!(/%b/, ABBR_MONTHNAMES_TR[date.mon])
+        format.gsub!(/%B/, MONTHNAMES_TR[date.mon])
         date_formatted = date.strftime(format)
-        date_formatted.gsub!(/%o/, ordinal(date.strftime('%e').to_i))
+        # date_formatted = date.strftime(format)
+        # date_formatted.gsub!(/%o/, ordinal(date.strftime('%e').to_i))
       end
       date_formatted
     end
@@ -93,6 +118,13 @@ module Jekyll
       date_format = self.site.config['date_format']
       self.data['date_formatted']    = format_date(self.data['date'], date_format) if self.data.has_key?('date')
       self.data['updated_formatted'] = format_date(self.data['updated'], date_format) if self.data.has_key?('updated')
+    end
+  end
+
+  module Filters
+    include Octopress::Date
+    def date_tr(date, format)
+      format_date(date, format)
     end
   end
 end
