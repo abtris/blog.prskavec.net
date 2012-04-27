@@ -14,15 +14,15 @@ Všechno ukazuji na praktických příkladech s pomocí Ubuntu a virtualizace (V
 
 - Automatizace buildu 
 - Instalace Jenkins
-- Continues Integration   
-- Continues Inspection
+- Continuous Integration   
+- Continuous Inspection
 	- API dokumentace 
 	- Softwarove metriky	
 	- Duplicitni kod
 	- Coding standard	
 	- Agregace vysledku
 - Automatizace automatizace
-- Continues Delivery
+- Continuous Delivery
 
 ## Informace o školení
 

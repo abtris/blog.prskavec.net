@@ -17,10 +17,10 @@ Letos jsem přednášel na Webexpu na téma deployment. Ve 30 minutách se nedá
 <ul>
 	<li>Služba, která se stará, aby námi zadaná konfigurace byla konzistentní napříč prostředím a na všech strojích a je to jeden nezbytných kroků pro CI.</li>
 </ul>
-<h2 id="continues_integration">Continues Integration</h2>
+<h2 id="continuous_integration">Continuous Integration</h2>
 CI pomáhá dramaticky snížit počet chyb při vývoji i v produkci pokud se to dělá dobře a důsledně.
 
-Pro dobré fungovaní Continues Integration potřebujete automatizovat deployment na prostředí. Na prostředích se často střídají aktuální feature větve vývojářů nebo se tam provádí update z větve pro release či sprint. K tomu se vše provádí několikrát denně. Abychom tohle mohli dělat potřebuje deployment mít plně automatický.
+Pro dobré fungovaní Continuous Integration potřebujete automatizovat deployment na prostředí. Na prostředích se často střídají aktuální feature větve vývojářů nebo se tam provádí update z větve pro release či sprint. K tomu se vše provádí několikrát denně. Abychom tohle mohli dělat potřebuje deployment mít plně automatický.
 <pre><code>"Automated deployment, tied into good CI discipline, is essential to making this work." - Martin Fowler
 </code></pre>
 <h2 id="tlatko_push">Tlačítko push</h2>
