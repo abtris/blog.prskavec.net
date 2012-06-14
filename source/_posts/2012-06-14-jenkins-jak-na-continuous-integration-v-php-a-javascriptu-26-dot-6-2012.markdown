@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-# Aktuání školeni 26.6.2012 - Continuous Integration v PHP a Javascriptu
+## Aktuání školeni 26.6.2012 
 
 Přijděte si popovídat o integraci vašich aplikací v PHP a Javascriptu na moje školení v úterý 26.6. [bit.ly/k-ci](bit.ly/k-ci).
 
