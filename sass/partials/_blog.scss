@@ -12,7 +12,8 @@ article {
       a { text-decoration: none;
         &:hover { text-decoration: underline; } }
     }
-    p {      
+    p {
+      font-size: .9em;
       color: $text-color-light;
       margin: 0;
       &.meta {
@@ -71,6 +72,7 @@ article {
     @extend .sans;
     p.meta {
       margin-bottom: .8em;
+      font-size: 1em;
       clear: both;
       overflow: hidden;
     }
