@@ -3,8 +3,32 @@ layout: page
 title: Školení
 ---
 
-## Jenkins – použití Continuous Integration engine pro PHP
-Ve spolupráci s [WebExpo Academy](http://webexpo.cz/blog/pilotni-program-webexpo-academy-startuje/#prskavec) jsem připravil školení na použití Jenkins (dříve Hudson). Touto problematikou se zabývám již 3 roky. Dozvíte se, jak Jenkins nainstalovat, jak ověřovat kvalitu softwarového produktu, jak řešit spouštění automatických testů, jak testovat coding standard, jaké si stanovovat softwarové metriky či jak kontinuálně deployovat vaše průběžné výsledky.
+## Jenkins – použití Continuous Integration engine
+Ve spolupráci s [WebExpo Academy](http://webexpo.cz/academy/) jsem připravil [školení na použití Jenkins](http://bit.ly/KlQP55) (dříve Hudson). Touto problematikou se zabývám již 3 roky. 
+
+Pochopení a využití procesu Continuous Integration s využitím nástroje Jenkins vám pomůže zvýšit kvalitu softwaru, který vyvíjíte, a zároveň snížit čas na jeho dodávku. Continuous Integration vám umožňuje kontrolovat kvalitu softwaru průběžně po malých částech a minimalizovat tak riziko rozsáhlých chyb, jak tomu bylo v případě klasického vodopádového přístupu.
+
+Školení se zaměřuje na PHP a [Javascript](http://bit.ly/LO7Bvd), ale znalosti jsou univerzálně použitelné pro další programovací jazyky.
+
+Osnova:
+
+- Automatizace buildu (Ant, Phing)
+- Instalace PHP QA nástrojů
+- Instalace nástrojů pro Javascript (nodejs, phantomjs, npm)
+- Instalace Jenkins
+- Unit testy (PHPUnit, Qunit)
+- BDD testy (Behat, Jasmine)
+- Vytváření Jenkins jobů
+- API Dokumentace (phpdoc2, docco, jsdoc)
+- Softwarové metriky
+- Duplicitní kód
+- Coding standard
+- Agregace výsledků
+- PHP Project Wizard
+- Template pro Jenkins joby (PHP Project)
+- Testování
+- Continuous Deployment
+- Integrace vlastního projektu
 
 ## Subversion - školení
 Verzovací systémy jsou dnes součástí práce každého programátora a nejen jeho. Všude kde potřebujete mít historii toho kdo co v kterém souboru změnil, na to se hodí verzovací systémy. Soubory mohou obsahovat programový kód, html, texty, účetní záznamy, matematické a jiné technické informace.
