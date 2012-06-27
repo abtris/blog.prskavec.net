@@ -1,9 +1,9 @@
-.sharing {
-  height: 35px;
+.sharing {  
   p.meta + & {
     padding: { top: 1em; left: 0; }
     background: $img-border top left repeat-x;
   }
+  iframe { height: 24px !important; }
 }
 
 #fb-root { display: none; }
