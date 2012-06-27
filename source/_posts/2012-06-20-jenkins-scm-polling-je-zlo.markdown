@@ -3,14 +3,16 @@ layout: post
 title: "Jenkins SCM polling je zlo!"
 date: 2012-06-20 18:54
 comments: true
-categories: 
+categories: jenkins
 ---
 Moc jsem nechápal problémy, které řešil [Kohsuke Kawaguchi](http://kohsuke.org/2011/12/01/polling-must-die-triggering-jenkins-builds-from-a-git-hook/) na konci roku. Ale brzo jsem to měl zjistit. Před časem přišel za mnou kolega, že chce zkonfigurovat polling stylem popisovaným v článku. 
 
 Polling jsme nastavili na 1x24h a máme git-update hook, který nám polling spustí po kommitu, kdy je potřeba. Ukázka git-update skriptu.
 
+```
 	REPOSITORY_BASENAME=$(basename "$PWD") 
 	curl http://jenkins.firma.cz/jenkins/git/notifyCommit?url=ssh://git@git.firma.cz/$REPOSITORY_BASENAME
+```
 
 V poslední době nám performace jenkins serveru začala klesat a load serveru prudce stoupat. Začali jsme to řešit pomocí dalších volných strojů, které se k jenkins masteru připojovali jako slave node. Úspěšně jsme si vyzkoušeli na to použití pluginu [swarm](https://wiki.jenkins-ci.org/display/JENKINS/Swarm+Plugin), který můžu doporučit. Vytvořili jsme RPM balík, který nainstalujeme na volný stroj a swarm se připojí k masteru a je plně nakonfigurovaný a k dispozici. Důležité je jen mít na slave nodes dost diskového prostoru, protože joby jsou dost často velké, obzvláště pokud jich máte velký počet. 
 
