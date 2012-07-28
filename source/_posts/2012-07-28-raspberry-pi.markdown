@@ -15,6 +15,7 @@ Rapsberry Pi jsem objednal u [Farnellu](http://export.farnell.com/rp/order/) v �
 Měl jsem zařízení, ale co dál aby to fungovalo.
 
 Potřebujete:
+
 - zdroj (700mA, 5V s microUSB) - použil jsem nabíječku z iphone a dal jiný usb kabel
 - SD kartu, kam dáte systém (použil jsem 4GB class 10)
 - kabel na připojení monitoru, použil jsem HDMI 
