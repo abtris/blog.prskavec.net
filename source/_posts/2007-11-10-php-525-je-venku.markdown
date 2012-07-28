@@ -1,10 +1,10 @@
---- 
+---
 layout: post
 title: PHP 5.2.5 je venku!
 published: true
-meta: 
+meta:
   _use_texy: "1"
-tags: 
+tags:
 - php
 type: post
 status: publish
