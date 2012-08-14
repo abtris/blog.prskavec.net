@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "angualarjs-templates"
+title: "Šablony v AngularJS"
 date: 2012-08-14 21:40
 comments: true
 categories: javascript, angularjs
 ---
-
-# Šablony v AngularJS
 
 Pokud začínáte s [AngularJS](http://www.angularjs.org) je dobré pro aplikace použít [angular-seed](https://github.com/angular/angular-seed).
 
