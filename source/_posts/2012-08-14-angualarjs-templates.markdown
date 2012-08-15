@@ -42,7 +42,7 @@ Ty se dají použít velmi dobře. Pokud je to menší kód, ale jinak je lepš�
 
 Jak jsem to konzultoval s Vojto Jínou. Bereme, že pro development je dobré použít jednotlivé šablony samostatně, ale pro nasazení je dobré spojit šablony do jednoho souboru, aby jste ušetřili requesty.
 
-Dá se použít například Grunt script pro vložení samostaných šablon z developmentu do inline šablon. Ukázkový script udělal Vojta Jína.
+Dá se použít například Grunt script pro vložení samostaných šablon z developmentu do inline šablon. Ukázkový script udělal [Vojta Jína](https://github.com/vojtajina).
 
 {% gist 3347478 %}
 
@@ -54,7 +54,7 @@ K tomu článku mě přivedl tento tweet.
 Nevíte někdo jak v #angularjs docílit toho abych měl jeden (externí) soubor se všema šablonama?
 {% endblockquote %}
 
-To by předpokládalo řešení, že budeme mít soubor s šablonami a zkusíme ho načíst a zpracovat. Musíte vytvořit falešnou template cache a tu použít, díky Vojtovy Jínovy za implementaci.
+To by předpokládalo řešení, že budeme mít soubor s šablonami a zkusíme ho načíst a zpracovat. Musíte vytvořit falešnou template cache a tu použít, díky Vojtovy za implementaci.
 
 {% gist 3354046 %}
 
