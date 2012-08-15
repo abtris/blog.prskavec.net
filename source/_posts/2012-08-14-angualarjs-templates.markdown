@@ -54,26 +54,12 @@ K tomu článku mě přivedl tento tweet.
 Nevíte někdo jak v #angularjs docílit toho abych měl jeden (externí) soubor se všema šablonama?
 {% endblockquote %}
 
-To by předpokládalo řešení, že budeme mít soubor s šablonami a zkusíme ho načíst a zpracovat.
+To by předpokládalo řešení, že budeme mít soubor s šablonami a zkusíme ho načíst a zpracovat. Musíte vytvořit falešnou template cache a tu použít, díky Vojtovy Jínovy za implementaci.
 
-    <script src="all-templates.html" all-templates></script>
+{% gist 3354046 %}
 
-    module.directive('allTemplates', function() {
-      return {
-        terminal: true,
-        compile: function(elm) {
-          $compile(elm);
-        };
-      };
-    });
+Rozhodně to, ale není něco co by jste měli používat.
 
-a potom by jste to chtěli načíst, ale má to potíže protože se to nepřidá do DOMu.
+# Závěr
 
-    $http.get('all-templates.html').success(function(content) {
-        $compile(content);
-    });
-
-Bohužel toto řešení se mi nepodařilo nějak uspokojivě rozchodit, aby se do DOMu šablona dostala, ale možná najdete řešení. Ale není to doporučované řešení. Zkuste se držet toho, že pro vývoj šablony dáte do samostatných souborů a pro vývoj si to nalinkujete dovnitř.
-
-Pokud někdo rozchodíte poslední řešení dejte vědět v komentářích.
-
+Držte se toho jak je to v AngularJS vymyšlené, zbastlit lze všechno, ale není to ideální a proto používejte samostatné šablony na vývoj a při deploymentu to dejte do stránky to je nejlepší způsob.
