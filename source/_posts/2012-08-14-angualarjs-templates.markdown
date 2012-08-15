@@ -24,9 +24,9 @@ v app.js se potom načítají samostatně
     $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html', controller: MyCtrl1});
     $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: MyCtrl2});
 
-Důležité je AngularJS sice používa template cache, ale pro každý soubor si sáhne samostatně a udělá 2 requesty, což nemusí být optimální obzvláště pokud by jste měli 20 šablon.
+Důležité je AngularJS sice používa template cache, ale pro každý soubor si sáhne samostatně a udělá 2 requesty, což nemusí být optimální obzvláště pokud byste měli 20 šablon.
 
-Tento způsob se hodí při vývoji, aby jste měli šablony samostatně pro přehlednost.
+Tento způsob se hodí při vývoji, abyste měli šablony samostatně pro přehlednost.
 
 ## Inline šablony
 
@@ -43,7 +43,7 @@ Ty se dají použít velmi dobře. Pokud je to menší kód, ale jinak je lepš�
 
 ## Kombinace obou způsobů
 
-Jak jsem to konzultoval s Vojtou Jínou z AngularJS teamu. Pro development je dobré použít jednotlivé šablony samostatně, ale pro nasazení je dobré spojit šablony do jednoho souboru, aby jste ušetřili requesty.
+Jak jsem to konzultoval s Vojtou Jínou z AngularJS teamu. Pro development je dobré použít jednotlivé šablony samostatně, ale pro nasazení je dobré spojit šablony do jednoho souboru, abyste ušetřili requesty.
 
 Dá se použít například [GruntJS](http://gruntjs.com/) script pro vložení samostaných šablon pro vývoj do inline šablon. Ukázkový script udělal [Vojta Jína](https://github.com/vojtajina).
 
@@ -61,7 +61,7 @@ To by předpokládalo řešení, že budeme mít soubor s šablonami a zkusíme 
 
 {% gist 3354046 %}
 
-Rozhodně to, ale není něco co by jste měli používat i když to funguje.
+Rozhodně to, ale není něco co byste měli používat i když to funguje.
 
 # Závěr
 
