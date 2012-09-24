@@ -12,13 +12,13 @@ Ocenil jsem na webexpu spoustu malých zlepšení, cedulka byla oboustranná. Ka
 
 V pátek jsem začal v Development Hall na přednášce [Ano, Chefe!](http://www.slideshare.net/karmi/shells-kitchen-infrastructure-as-code-webexpo-2012) Karel Minařík, Vojtěch Hýža byli úžasní, ale nevím zda to bylo pochopitelné pro všechny, já mám s Chefem zkušenosti a tak jsem si to skvěle užil.
 
-Po pauze kdy jsem si dal něco k obědu, těstoviny z masem nebyli špatné.
+Po pauze kdy jsem si dal něco k obědu, těstoviny s masem nebyly špatné.
 
 Byl jsem na několika přednáškách v bussiness hall, kterým jsem moc nerozumněl a moc mi to nedalo.
 
-Další přednášku Mr. LAW and the Typos od Josefa Pospíšila jsem viděl už na Ruby srazu. Jak dělat agilně pokud jste sám v týmu. Tohle téma je trochu specifické. Důležitost testování a správně nastavené komunikace s klientem je klíčová. Pepa jel prezentaci z Ipadu a měl jí vytvořenou pomocí aplikace [Haiku Deck](http://www.haikudeck.com/).
+Další přednášku Mr. LAW and the Typos od Josefa Pospíšila jsem viděl už na Ruby srazu. Jak dělat agilně pokud jste na to sami. Tohle téma je trochu specifické. Důležitost testování a správně nastavené komunikace s klientem je klíčová. Pepa jel prezentaci z Ipadu a měl jí vytvořenou pomocí aplikace [Haiku Deck](http://www.haikudeck.com/).
 
-Přednáška Jakuba Nešetřila Jak (ne)dělat API mi moc nového neřekla, protože Apiary.io už používám a toto téma se zajímám delší dobu. Každopádně developer co dělá api a nepoužíá Apiary.io by měl začít.
+Přednáška Jakuba Nešetřila Jak (ne)dělat API mi moc nového neřekla, protože Apiary.io už používám a toto téma se zajímám delší dobu. Každopádně developer co dělá api a nepoužívá Apiary.io by měl začít.
 
 Poslední přednáška Bena Kamense o [Khan Academy](http://www.khanacademy.org/) mě zaujala rozborem A/B testování za použití frameworku Abingo (např. implementace v [Ruby](http://www.bingocardcreator.com/abingo), dále je v [Pythonu](https://github.com/kamens/gae_bingo) a DotNet).
 
@@ -40,7 +40,7 @@ Vašek to moc stavěl jako rebase vs merge, ale z mých zkušeností to nikdy ta
 
 Takže rebase na privátních větvích, kde není sdílený kód s ostatními. Podle mě bylo by spíše zajímavé představit řešení jak to mají implementované na serveru. Zda používají forky nebo personální větve apod. A to netuším, zda by zajímalo většinu lidí, je to dost specifické pro lidi co do problematiky asi proniknou více.
 
-Přednáška Tomáše Jukina na téma Ekosystém. Jak se tvoří weby! Tomáš představil Railsy a jejich systém. Tomáš je šoumen a zabavná přednáška mě přinesla i pěkné představení [rails_admin](https://github.com/Juicymo/rails_admin) a Ruby Scaffolding Toolboxu.
+Přednáška Tomáše Jukina na téma Ekosystém. Jak se tvoří weby! Tomáš představil Railsy a jejich systém. Tomáš je šoumen a zabavná přednáška přinesla i pěkné představení [rails_admin](https://github.com/Juicymo/rails_admin) a Ruby Scaffolding Toolboxu.
 
 V rámci minibarcampu jsem byl na pokecu o Bitcoinech.
 
@@ -52,9 +52,9 @@ Lukáš Linhart a jeho přednáška o Node.js byla jako obvykle kritická i záb
 
 Michal Bachman byl vynikající a jeho přednáška o Neo4j byla opravdu pěkně připravená a příklady názorné a zajímavé.
 
-Těšil jsem se na přednášku o PHPUnit od Sebastiana Bergmanna. Podání bylo dost nudné až ke konci bylo něco zajímavého. Pro mě asi nejvíce zklamání od zahraničního speakra, který měl určitě co říct.
+Těšil jsem se na přednášku o PHPUnit od Sebastiana Bergmanna. Podání bylo dost nudné až ke konci bylo něco zajímavého. Pro mě asi nejvíce zklamání od zahraničního hosta, který měl určitě co říct.
 
-Na konec jsem zvolil přednášku od Ash Maurya od Lean Canvasu, ale nepřišla mi nějak zajímavá, celkem jsem viděl co jsem někde viděl na youtube.
+Na konec jsem zvolil přednášku od Ash Maurya o Lean Canvasu, ale nepřišla mi nějak zajímavá, celkem jsem viděl co jsem někde viděl na youtube.
 
 Příští ročník má být mezinárodní a v angličtině. Pokud se to Vaškovy a jeho týmu podaří, vylepší drobnosti v organizaci, tak přednášející a třeba konečně budou mít nějaké nosné téma i celky přednášek, které zaujmou.
 
