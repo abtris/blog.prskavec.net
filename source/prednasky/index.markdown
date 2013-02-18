@@ -3,8 +3,7 @@ layout: page
 title: Přednášky
 ---
 
-- Webexpo 2011 - [Deployment prakticky](http://blog.prskavec.net/2011/09/25/deployment-prakticky-webexpo-2011/)
-- Barcamp 2010 - [PHP in Enterprise](http://www.slideshare.net/ladislavprskavec/barcamp2010)
+<iframe src="http://www.slideshare.net/ladislavprskavec/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 
 Slidy z přednášek jsou k dispozici na [slideshare](http://slideshare.net/ladislavprskavec). 
 
