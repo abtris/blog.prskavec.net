@@ -52,6 +52,19 @@ Osnova:
 - Continuous Deployment
 - Integrace vlastního projektu
 
+## Performance webových aplikací
+
+Cílem školení je ukázat účastníkům rozsah problematiky performance a jak řešit problémy s performance na různých úrovních.
+
+Osnova:
+
+- Analýza
+- Benchmarky
+- Rozkládání zátěže
+- Databáze
+- Server
+- Client
+
 
 ### Školení pro GOPAS
 
