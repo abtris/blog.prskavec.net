@@ -3,8 +3,30 @@ layout: page
 title: Školení
 ---
 
+Školení Git a Jenkins dělám buď na míru a potom mě neváhejte kontaktovat přímo [emailem](mailto:ladislav@prskavec.net) nebo jako veřejná v rámci WebExpo Academy.
+
+## Git distribuovaný verzovací systém pro každého
+
+Git je dnes moderní verzovací systém, který se výborně hodí k agilnímu vývoji ve firmách.
+Zavedení do infrastruktury a procesů vývoje není složitější než jiný verzovací systém. 
+Jeho znalost mezi vývojáři se v posledních letech značně vylepšila a stále více firem ve světě i u nás ho používá.
+
+Osnova:
+
+- Průběh kurzu
+- Verzovací systémy od historie až po současnost
+- Základní pojmy pro verzovací systémy
+- Instalace Git klienta pro všechny operační systémy
+- Základní workflow v Gitu a potřebné příkazy
+- Práce z příkazové řádky a její využití na maximum
+- Praktické využití Gitu nejenom pro programátory, verzovaní konfigurace a jiných dokumentů
+- Pokročilé funkce, práce s větvemi a více vzdálenými repositáři
+- Vlastní Git server ve firmě
+- Různé workflow a jejich nasazení v praxi
+- Tipy a triky
+
 ## Jenkins – použití Continuous Integration engine
-Ve spolupráci s [WebExpo Academy](http://webexpo.cz/academy/) jsem připravil [školení na použití Jenkins](http://bit.ly/KlQP55) (dříve Hudson). Touto problematikou se zabývám již 3 roky. 
+Připravil jsem [školení na použití Jenkins](http://bit.ly/KlQP55) (dříve Hudson). Touto problematikou se zabývám již 3 roky. 
 
 Pochopení a využití procesu Continuous Integration s využitím nástroje Jenkins vám pomůže zvýšit kvalitu softwaru, který vyvíjíte, a zároveň snížit čas na jeho dodávku. Continuous Integration vám umožňuje kontrolovat kvalitu softwaru průběžně po malých částech a minimalizovat tak riziko rozsáhlých chyb, jak tomu bylo v případě klasického vodopádového přístupu.
 
@@ -29,9 +51,6 @@ Osnova:
 - Testování
 - Continuous Deployment
 - Integrace vlastního projektu
-
-## Subversion - školení
-Verzovací systémy jsou dnes součástí práce každého programátora a nejen jeho. Všude kde potřebujete mít historii toho kdo co v kterém souboru změnil, na to se hodí verzovací systémy. Soubory mohou obsahovat programový kód, html, texty, účetní záznamy, matematické a jiné technické informace.
 
 
 ### Školení pro GOPAS
