@@ -49,7 +49,7 @@ end
 #######################
 
 desc "Generate jekyll site"
-task :generate => [:sass, :update_asset_versions, :jekyll, :combine, :minify, :gzip]
+task :generate => [:sass, :update_asset_versions, :jekyll, :combine, :minify]
 
 
 desc "Process Sass"
@@ -244,7 +244,10 @@ task :minify_css do
   puts "## Minifying CSS"
   input = "#{source_dir}/stylesheets/all.css"
   output = "#{source_dir}/stylesheets/all.#{asset_version}.css"  
-  system "cleancss -o #{output} #{input}"
+  system "./node_modules/clean-css/bin/cleancss -o #{output} #{input}"
+  Dir.glob("#{source_dir}/stylesheets/all.*").each do |f|
+    FileUtils.mv(f, "#{public_dir}/stylesheets")
+  end  
 end
 
 desc "Minify JS"
@@ -252,9 +255,7 @@ task :minify_js do
   puts "## Minifying JS"
   input = "#{source_dir}/javascripts/all.js"
   output = "#{source_dir}/javascripts/all.#{asset_version}.js"
-  source_map_option = "--source-map #{source_dir}/javascripts/all.#{asset_version}.js.map"
-  source_map_root_option = "--source-map-root http://blog.prskavec.net"
-  system "uglifyjs #{input} -o #{output} #{source_map_option} #{source_map_root_option} -p 2 -m -c warnings=false"
+  system "uglifyjs #{input} > #{output}"
   Dir.glob("#{source_dir}/javascripts/all.*").each do |f|
     FileUtils.mv(f, "#{public_dir}/javascripts")
   end
