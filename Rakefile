@@ -308,7 +308,7 @@ task :gzip => [:gzip_html, :gzip_css, :gzip_js]
 desc "Update head include for static assets"
 task :update_asset_versions do
   puts "## Updating asset versions"
-  # Replace instances of all.js and all.1234.js with all.{version}.js
+  # Replace instances of all.css and all.1234.css with all.{version}.css
   content = ''
   File.open("#{source_dir}/_includes/head.html", 'r') do |file|
     content = file.read.gsub(/all(\.\d+)?\./, "all.#{asset_version}.")
@@ -316,6 +316,16 @@ task :update_asset_versions do
   File.open("#{source_dir}/_includes/head.html", 'w') do |file|
     file.write(content)
   end
+
+  # _includes/after_footer.html  
+  # Replace instances of all.js and all.1234.js with all.{version}.js
+  content = ''
+  File.open("#{source_dir}/_includes/after_footer.html", 'r') do |file|
+    content = file.read.gsub(/all(\.\d+)?\./, "all.#{asset_version}.")
+  end
+  File.open("#{source_dir}/_includes/after_footer.html", 'w') do |file|
+    file.write(content)
+  end   
 end
 
 ##############
