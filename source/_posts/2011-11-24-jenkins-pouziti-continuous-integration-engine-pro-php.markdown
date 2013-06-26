@@ -8,6 +8,8 @@ categories:
 
 Vyvíjíte větší PHP projekt a potřebujete zlepšit koordinaci vašeho týmu a vaše softwarové procesy? Přístup Continuous Integration a nástroj Jenkins, který jej umožňuje implementovat, vám pomohou. Dozvíte se, jak Jenkins nainstalovat, jak ověřovat kvalitu softwarového produktu, jak řešit spouštění automatických testů, jak testovat coding standard, jaké si stanovovat softwarové metriky či jak kontinuálně deployovat vaše průběžné výsledky.
 
+<!--more-->
+
 Všechno ukazuji na praktických příkladech s pomocí Ubuntu a virtualizace (VirtualBox) a za použití nástroje [Vagrant](http://www.vagrantup.com).
 
 ## Osnova školení pro [WebExpo Academy](http://webexpo.cz/blog/#prskavec)

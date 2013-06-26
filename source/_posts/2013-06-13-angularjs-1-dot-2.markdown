@@ -8,6 +8,8 @@ categories: javascript
 
 Pokud sledujete dění kolem frameworku [AngularJS](http://angularjs.org) tak jste jistě zaznamenali, že se pracuje na nové verzi 1.2, která je teď blízko k dokončení. V masteru mají dnes verzi pojmenovanou jako verzi 1.1.8 a brzy se snad dočkáme finální verze. Zkusím zde popsat nejdůležitější věci z [prezentace](https://docs.google.com/presentation/d/1WHCcp3G3HxoE7b_ut_ERKJF4zQK_P4qFlESjE2E9AUQ/preview?sle=true#slide=id.geaf70e8e_16) na meetupu 11.6. co prezentovali Igor Minár a Brad Green.
 
+<!--more-->
+
 ## ng-animate 
 [Deklarativní animace](http://yearofmoo-articles.github.io/angularjs-2nd-animation-article/app/#/) pro aplikace v Angularu. Podpora pro CSS animace a přechody s možností fallbacku pomocí JS. Pro vlastní animace je dobré použít některou s knihoven pro CSS animace (Greensock.js, [Animate.css](http://daneden.me/animate/), Custom CSS3 Keyframes).
 Direktiva se stará o práci s DOMem, nastavuje potřebné třídy a timing, také zabraňuje vnořeným animacím.

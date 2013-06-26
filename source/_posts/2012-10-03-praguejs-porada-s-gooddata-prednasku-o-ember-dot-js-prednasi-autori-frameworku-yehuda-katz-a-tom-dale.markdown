@@ -8,6 +8,7 @@ categories:
 
 Ve čtvrtek 11.10. proběhne [javascriptový meetup](http://praguejs.cz) v [Node5](http://node5.cz) s tématem [Ember.js](http://emberjs.com). GoodData přivezou do Prahy hlavní vývojáře tohoto frameworku.
 
+<!--more-->
 
 Oba představitelé pracuji pro startup [Tilde.io](http://www.tilde.io/), který společně založili, jehož hlavní náplní je dodávat kompletní řešení pro prostředí moderního webu.
 

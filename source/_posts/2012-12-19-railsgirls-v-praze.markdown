@@ -10,6 +10,8 @@ categories: events
 
 V Praze 14-15. 12. 2012 se uskutečnil jedinečný projekt v rámci mezinárodní komunity, která se zaměřuje na to dostat do technice ženy a dívky.
 
+<!--more-->
+
 {% blockquote RailsGirls website, http://railsgirls.com %}
 Our aim is to give tools and a community for women to understand technology and to build their ideas. We do this by providing a great experience on building things and by making technology more approachable.
 {% endblockquote %}

@@ -8,6 +8,8 @@ categories:
 
 Grunt.js je nástroj pro tvorbu ukolů. Obdobný nástroj existuje pro každý programovací jazyk a často nejenom jeden.
 
+<!--more-->
+
 Osobně mám nejraději asi klasický Makefile pro jeho jednoduchost. Stačí do něj napsat příkazy co pustíte v shellu takže to víceméně může být cokoliv. Makefile má jednoduchou strukturu, obsahuje label a potom vlastní příkaz. Při zadání `make` se spustí label označený `all`.
 
     all:

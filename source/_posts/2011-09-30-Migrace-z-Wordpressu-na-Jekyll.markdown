@@ -14,6 +14,8 @@ Wordpress u mě na hostingu ještě narazil na limit starého MySQL a mě se tak
 
 Protože jsem před časem viděl, že [Github pages](http://pages.github.com) se dají dobře použít pro vlastní blog, rozhodl jsem se na to přejít se svými blogy [TopTopic?](http://blog.prskavec.eu) a [Prskavčí blog](http://blog.prskavec.net).
 
+<!--more-->
+
 ## Jak jsem postupoval
 
 1. Migrace starého obsahu z Wordpressu

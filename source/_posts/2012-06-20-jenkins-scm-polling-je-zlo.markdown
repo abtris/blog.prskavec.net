@@ -7,6 +7,8 @@ categories: jenkins
 ---
 Moc jsem nechápal problémy, které řešil [Kohsuke Kawaguchi](http://kohsuke.org/2011/12/01/polling-must-die-triggering-jenkins-builds-from-a-git-hook/) na konci roku. Ale brzo jsem to měl zjistit. Před časem přišel za mnou kolega, že chce zkonfigurovat polling stylem popisovaným v článku. 
 
+<!--more-->
+
 Polling jsme nastavili na 1x24h a máme git-update hook, který nám polling spustí po kommitu, kdy je potřeba. Ukázka git-update skriptu.
 
 ```

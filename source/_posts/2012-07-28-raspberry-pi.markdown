@@ -10,6 +10,8 @@ categories: nodejs, raspberry
 
 Rapsberry Pi jsem objednal u [Farnellu](http://export.farnell.com/rp/order/) v červnu a na konci července mi přišel dopis ve kterém bylo zařízení.
 
+<!--more-->
+
 ## Co jsem potřeboval, aby to fungovalo
 
 Měl jsem zařízení, ale co dál aby to fungovalo.

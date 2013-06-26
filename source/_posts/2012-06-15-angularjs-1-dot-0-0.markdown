@@ -10,6 +10,8 @@ categories:
 
 Po celkem dlouhém čekání a 12 RC verzí 1.0 je konečně venku finální verze na kterou od jara čekáme. Trochu jsem si říkal zda se nečeká na něco jiné například [DoubleClick](http://blog.angularjs.org/2012/06/doubleclick-super-powered-by-angularjs.html) jako stěžení referenci pro AngularJS. 
 
+<!--more-->
+
 Na blogu Google Developers vyšel pěkný [článek](http://googledevelopers.blogspot.cz/2012/06/better-web-templating-with-angularjs-10.html), který shrnuje hlavní věci, které mě na AngularJS baví, doporučuji přečíst každému. 
 
 Pokud se moje přednáška dostane na Webexpo 2012. Budu povídat jak to používáme AngularJS na [Jobs.cz](http://www.jobs.cz). 

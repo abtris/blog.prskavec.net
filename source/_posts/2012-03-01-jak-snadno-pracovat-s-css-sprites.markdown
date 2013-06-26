@@ -11,6 +11,8 @@ categories: css
 CSS spirty představují způsob, jak snížit počet HTTP požadavků, které klient vyšle k získání prvků obsažených na stránce. Obrázky se sloučí do jednoho většího a umístí se na určených X,Y souřadnicích. Pak pomocí CSS atributu background-position můžeme nastavit vzniklý obrázek na pozadí různým elementům stránky a pomocí dalších CSS vlastností umístíme pozadí tak, aby požadovaný jednotlivý obrázek padl do viditelné oblasti elementu na stránce.
 {% endblockquote %}
 
+<!--more-->
+
 Poslouchal jsem [podcast](http://official.fm/tracks/352028) s [Vaškem Vančurou](http://vaclav.vancura.org), kde popisuje svoji práci s LESS a sprites pomocí software [TexturePacker](http://www.texturepacker.com/).
 
 Zkoušel jsem Vaška přemluvit, aby něco napsal:

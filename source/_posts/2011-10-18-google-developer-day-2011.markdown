@@ -7,6 +7,8 @@ categories: [google, web]
 ---
 GDD již tradičně v Clarionu, registrace se dneska pěkně protáhla pokud jste nepřišli včas a nevyužili některé jiné fronty než té první.
 
+<!--more-->
+
 Reportáž online:
 
 ## Keynote

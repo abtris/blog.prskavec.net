@@ -8,6 +8,8 @@ categories: javascript
 
 Mám několik webů, které jsou na NodeJS. Spousta lidí zná moje weby o javascriptu [PragueJS](http://praguejs.cz), které běží na NodeJS a je napsaný [ExpressJS](http://expressjs.com/). Web je napsaný v coffee-scriptu. Nic extra, ale řešil jsem kde web hostovat. 
 
+<!--more-->
+
 ## Heroku
 Jako první jsem zvolil [Heroku](http://heroku.com/), kde musíte upravit a lehce nastavení v package.json, aby Heroku vědělo jakou verzi NodeJS a NPM má pro kompilaci použít.
 

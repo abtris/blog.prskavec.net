@@ -12,6 +12,8 @@ Letos jsem se poprvé dostal na Vsetínský Barcamp a spousta přednášek mi p�
 
 Moje přednáška byla večer na střeše a sešla se nám malá skupina, kterou to zajímalo a hodně se diskutovalo a to mám na Barcampech rád.
 
+<!--more-->
+
 ## Budou učebnice  v budoucnosti jen elektronické?
 
 Elektronické knihy procházejí změnami, všichni si pamatují čtení v palm pilotech a jak to změnil Kindle, když přišel s prvním velkým obchodem s knihami. Sám jsem si tehdy Kindle 2 koupil a na beletrii neznám nic lepšího. Ale řešil jsem problém, že mám manuály a další odborné knihy převážně v PDF a to se na tom Kindlu nedalo moc dobře číst. Potom přišel iPad a iBook od Apple, tam se dají dobře číst i PDF, ale jinak to je stejné jako u kindle s nevýhodou toho, že to není elektronický inkoust.

@@ -8,6 +8,8 @@ categories: javascript, angularjs
 
 Pokud začínáte s [AngularJS](http://www.angularjs.org) je dobré pro aplikace použít [angular-seed](https://github.com/angular/angular-seed).
 
+<!--more-->
+
 ## Jednotlivé šablony v samostatných souborech
 
 Šablony v angular-seed jsou rozděleny do samostatných souborů.

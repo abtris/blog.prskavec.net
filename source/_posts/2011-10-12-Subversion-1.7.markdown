@@ -14,6 +14,8 @@ Myslím, že vetšina lidí si shlédnutí roadmapy Subversion a čekaní 2 roky
 
 Byla opraveny [spousty chyb](http://svn.apache.org/repos/asf/subversion/tags/1.7.0/CHANGES) což jistě všichni uživatelé ocení. A přidáno několik novinek, ty nejvýznamější zmínim dále.
 
+<!--more-->
+
 ### WC-NG
 
 Za dlouho očekávanou novou verzí pracovní kopie (WC, working copy) je centralizace adresářů `.svn` do jednoho podobně jako to mají jiné verzovací systémy. Používá se nějaká forma SQLite, ale autoři upozorňují, že není bezpečné přistupovat k souboru s metadaty běžnými nástroji pro SQLite. 

@@ -8,6 +8,8 @@ categories: webexpo, conference
 
 Ocenil jsem na webexpu spoustu malých zlepšení, cedulka byla oboustranná. Každý účasník měl vyrobeny vizitky, které jsem využil při networkingu.
 
+<!--more-->
+
 ## Pátek 21.9.2012
 
 V pátek jsem začal v Development Hall na přednášce [Ano, Chefe!](http://www.slideshare.net/karmi/shells-kitchen-infrastructure-as-code-webexpo-2012) Karel Minařík, Vojtěch Hýža byli úžasní, ale nevím zda to bylo pochopitelné pro všechny, já mám s Chefem zkušenosti a tak jsem si to skvěle užil.

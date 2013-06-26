@@ -10,6 +10,8 @@ categories: tools
 
 Před nedávnem jsem měl problém s dostupností sítě v nejmenovaném dopravním prostředku na trase Praha Liberec, potřeboval jsem maličkost z dokumentace PHP. Nebyl to problém, protože jsem pár dní předtím objevil nástroj [Dash](http://kapeli.com/dash/), který to elegantně řeší. Kromě dokumentace si v něm můžete uchovávat snippety, ale tam mi chybí integrace s gisty na githubu.
 
+<!--more-->
+
 {% img center /images/dash/Dash-Add.jpg 'Dash - základní okno' %}
 
 Můžete hned začít hledat, například php funkci **ksort()**

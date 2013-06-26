@@ -11,6 +11,8 @@ Toto je častá otázka, kterou slyším. Spousta lidí používá sdílené adr
 ## Každý programátor pracuje v jiné podadresáři?
 Tak to trochu může lidem připadat, ale programátoři používají verzovací systém, který dokumentovou databází, která sleduje změny a pomůže v mnoha věcech.
 
+<!--more-->
+
 ### Záloha a Obnova 
 Soubory, které ukládáme do verzovacího systému si nesou infomaci o času uložení a není problém skočit v čase co existuje repozitář kam chcete třeba co jste dělali 29.7.2009? Není problém.
 
