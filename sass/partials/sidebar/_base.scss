@@ -1,6 +1,11 @@
 .side-shadow-border {
   @include box-shadow(lighten($sidebar-bg, 5) 0 1px);
 }
+.icons {
+  width: 48px;
+  height: 48px;
+}
+
 aside.sidebar {
   overflow: hidden;
   color: $sidebar-color;
@@ -25,8 +30,6 @@ aside.sidebar {
     @extend .flex-content;
     @extend .basic-alignment;
     @include shadow-box($border: #fff .3em solid);
-    width: 48px;
-    height: 48px;
   }
   ul {
     margin-bottom: 0.5em;
