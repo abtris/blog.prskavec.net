@@ -21,15 +21,15 @@ Těmto řešením se věnuje web [nobackend.org](http://nobackend.org/solutions.
    * [remoteStorage](http://remotestorage.io/)
    * [Sockethub](http://sockethub.org/)
 
-Bohužel jsem neměl tolik času abych podrobně prozkoumal všechny řešení a aktuálně volil to asi nejlepší pro mě. Protože zástupci Firebase měli přednášku na meetupu:
+Bohužel jsem neměl tolik času, abych podrobně prozkoumal všechny řešení. O Firebase jsem se dozvěděl z přednášky na meetupu:
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/C7ZI7z7qnHU?rel=0" frameborder="0" allowfullscreen></iframe>
 
-Pokud rozumíte anglicky a není to pro vás problém tak je to asi zatím nejlepší věc ze které jsem také vycházel pro svoji přednášku na [PragueJS](http://www.praguejs.cz).
+Z této přednášky jsem vycházel pro svoji přednášku na [PragueJS](http://www.praguejs.cz).
 
 ## Firebase
 
-Zajímavé na tomto projektu je, že je to asi rok startup, který vznikl z projektu Envolve, což je skupinový chat pro tisíce websites. Zjistili, že vyvíjený backend je užitečný pro více druhů aplikací než jenom chat a nabídli ho jako produkt Firebase. 
+Zajímavé na tomto projektu je, že je to poměrně mladý projekt, ale který vznikl z projektu Envolve (2009), což je skupinový chat pro tisíce websites. Zjistili, že vyvíjený backend je užitečný pro více druhů aplikací než jenom chat a nabídli ho jako produkt Firebase. 
 
 Hlavní věci, které dělají Firebase zajímavou jsou:
 - JSON formát pro data
