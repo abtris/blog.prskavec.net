@@ -8,6 +8,7 @@ categories: javascript angularjs
 
 Dnešní většina aplikací v javascriptu má architekturu klient server. Pokud nechcete psát nějaký backend pro vaši aplikaci, můžete se tomu vyhnout pokud použijete nějaký druh úložiště (databáze), která vám k tomu přidá i funkce, které má nějaký backend napsaný např. v nodejs nebo php.
 
+<!--more-->
 
 Těmto řešením se věnuje web [nobackend.org](http://nobackend.org/solutions.html), kde se dají najít tyto řešení:
 
