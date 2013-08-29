@@ -17,7 +17,7 @@ Těmto řešením se věnuje web [nobackend.org](http://nobackend.org/solutions.
    * [Firebase](http://www.firebase.com)
    * [Hoodie](http://hood.ie/)
    * [Kinvey](http://www.kinvey.com/)
-	 * [Parse](https://parse.com/)
+   * [Parse](https://parse.com/)
    * [remoteStorage](http://remotestorage.io/)
    * [Sockethub](http://sockethub.org/)
 
@@ -47,34 +47,34 @@ AngularFire je modul, který řeší vlastní authentikaci pomocí angularFireAu
 
 Stačí mít includnuté tyto soubory pro práci s firebase.
 
-		<script src="https://cdn.firebase.com/v0/firebase.js"/>
-		<script src="https://cdn.firebase.com/v0/firebase-simple-login.js"/>
-		<script src="angularFire.js"/>
+        <script src="https://cdn.firebase.com/v0/firebase.js"/>
+        <script src="https://cdn.firebase.com/v0/firebase-simple-login.js"/>
+        <script src="angularFire.js"/>
 
 
 potom v controlleru se předá angularFireAuth přes dependency injection
 
-		function MyController($scope, angularFireAuth) {
-			var url = "https://<my-firebase>.firebaseio.com/";
-			angularFireAuth.initialize(url, {scope: $scope, name: "user"});
-		}
+        function MyController($scope, angularFireAuth) {
+            var url = "https://<my-firebase>.firebaseio.com/";
+            angularFireAuth.initialize(url, {scope: $scope, name: "user"});
+        }
 
 v šabloně potom máte vlastní přihlašování
 
-		<span ng-show="user">
-		{{user.name}} | <a ng-click="logout()">Logout</a>
-		</span>
-		<span ng-hide="user"><a ng-click="login()">Login</a></span>
+        <span ng-show="user">
+        {{user.name}} | <a ng-click="logout()">Logout</a>
+        </span>
+        <span ng-hide="user"><a ng-click="login()">Login</a></span>
 
 
 metody pro login přes Firebase simple login, které použijí facebook takto jednoduše deklarujete
 
-		$scope.login = function() {
-			angularFireAuth.login("facebook");
-		};
-		$scope.logout = function() {
-			angularFireAuth.logout();
-		};
+        $scope.login = function() {
+            angularFireAuth.login("facebook");
+        };
+        $scope.logout = function() {
+            angularFireAuth.logout();
+        };
 
 AngularFire podporuje [implicitní](http://angularfire.com/documentation.html#implicit) a [explicitní data binding](http://angularfire.com/documentation.html#explicit). Příklady najdete v dokumentaci.
 
