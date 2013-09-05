@@ -3,7 +3,7 @@ layout: post
 title: "Jenkins - jak na Continuous Integration v PHP a Javascriptu 26.6.2012"
 date: 2012-06-14 14:32
 comments: true
-categories: 
+categories: jenkins
 ---
 
 ## Aktuání školeni 26.6.2012 

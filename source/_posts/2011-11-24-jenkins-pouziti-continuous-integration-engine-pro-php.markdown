@@ -3,7 +3,7 @@ layout: post
 title: "Jenkins – použití Continuous Integration engine pro PHP"
 date: 2011-11-24 20:24
 comments: true
-categories: 
+categories: jenkins
 ---
 
 Vyvíjíte větší PHP projekt a potřebujete zlepšit koordinaci vašeho týmu a vaše softwarové procesy? Přístup Continuous Integration a nástroj Jenkins, který jej umožňuje implementovat, vám pomohou. Dozvíte se, jak Jenkins nainstalovat, jak ověřovat kvalitu softwarového produktu, jak řešit spouštění automatických testů, jak testovat coding standard, jaké si stanovovat softwarové metriky či jak kontinuálně deployovat vaše průběžné výsledky.

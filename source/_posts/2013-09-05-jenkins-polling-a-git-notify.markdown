@@ -8,6 +8,8 @@ categories: jenkins
 
 Minulý rok jsem psal o tom, že [polling v Jenkinsu je zlo](http://blog.prskavec.net/2012/06/jenkins-scm-polling-je-zlo/). To stále platí, ale i když máte tento přístup nemusí to stačit.
 
+<!--more-->
+
 Tady je příklad hooku pro gitolite, který používáme na některých repository.
 
 {% gist 5625369 %}
