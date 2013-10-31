@@ -18,13 +18,13 @@ Občas je potřeba notifikovat jen větev, která se změní, aby to nepustilo z
 
 Nejdůležitější části, jsou detekce větve, escape lomítka ve jménech větve.
 
-		branch=$(git rev-parse --symbolic --abbrev-ref $1)
-		escaped_branch=$(echo $branch | sed s:/:%2F:g)
+    branch=$(git rev-parse --symbolic --abbrev-ref $1)
+    escaped_branch=$(echo $branch | sed s:/:%2F:g)
 
 potom vlastní git-notify volání curlem.
 
-		REPOSITORY_BASENAME=$(basename "$PWD")
-  	curl "http://jenkins.firma.cz/git/notifyCommit?url=ssh://git@git.firma.cz/$REPOSITORY_BASENAME&branch=$escaped_branch"
+    REPOSITORY_BASENAME=$(basename "$PWD")
+    curl "http://jenkins.firma.cz/git/notifyCommit?url=ssh://git@git.firma.cz/$REPOSITORY_BASENAME&branch=$escaped_branch"
 
 
 Snad to bude někomu užitečné také, pokud si chcete o Jenkinsu popovídat [více, dejte vědět](http://blog.prskavec.net/skoleni/).
