@@ -1,15 +1,20 @@
-
 ---
 layout: post
-title: "Git a pre-commit hook pro kontrolu syntaxe v mnoha jazycích"
+title: "Git a pre-commit hook pro kontrolu syntaxe"
 date: 2014-01-06 19:29
 comments: true
 categories: git
 ---
 
-Pokud pracujete s gitem nebo jiným verzovacím systémem, určitě jste se setkali s hooky. Pro kontrolu než provedete commit, který se jmenuje pre-commit a hodí se zejména pro kontrolu syntaxe. Já mám několik hooků, které kontrolují php, js, xml a ruby. Říkal jsem si, že by to chtělo je refactorovat a udělat z nich použitelný kód. Naštěstí jsem to dělat nemusel, protože vznikl malý projekt [ochtra](https://github.com/kvz/ochtra)  (One Commit Hook To Rule All).
+Pokud pracujete s gitem nebo jiným verzovacím systémem, určitě jste se setkali s hooky. Pro kontrolu než provedete commit, který se jmenuje pre-commit a hodí se zejména pro kontrolu syntaxe. Já mám několik hooků, které kontrolují php, js, xml a ruby. Říkal jsem si, že by to chtělo je refactorovat a udělat z nich použitelný kód. 
+
+## Ochtra
+
+Naštěstí jsem to dělat nemusel, protože vznikl malý projekt [ochtra](https://github.com/kvz/ochtra)  (One Commit Hook To Rule All).
 
 Tento projekt teď umí kontrolovat Ruby, JavaScript, Python, Bash, Dash, Go, PHP, XML, JSON, YAML. A co se mi zvláště líbí je, že autor pěkně popsal instalaci, která je potřeba, aby vám hook fungoval automaticky, když použijete git clone.
+
+### Instalace
 
 Potřebujete git 1.7, kde je podpora pro git templates.
 
