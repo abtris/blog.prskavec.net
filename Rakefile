@@ -243,18 +243,18 @@ desc "Minify CSS"
 task :minify_css do
   puts "## Minifying CSS"
   input = "#{source_dir}/stylesheets/all.css"
-  output = "#{source_dir}/stylesheets/all.#{asset_version}.css"  
+  output = "#{source_dir}/stylesheets/all.css"
   system "./node_modules/clean-css/bin/cleancss -o #{output} #{input}"
   Dir.glob("#{source_dir}/stylesheets/all.*").each do |f|
     FileUtils.mv(f, "#{public_dir}/stylesheets")
-  end  
+  end
 end
-
+# npm install uglify-js -g
 desc "Minify JS"
 task :minify_js do
   puts "## Minifying JS"
   input = "#{source_dir}/javascripts/all.js"
-  output = "#{source_dir}/javascripts/all.#{asset_version}.js"
+  output = "#{source_dir}/javascripts/all.js"
   system "uglifyjs #{input} > #{output}"
   Dir.glob("#{source_dir}/javascripts/all.*").each do |f|
     FileUtils.mv(f, "#{public_dir}/javascripts")
@@ -290,16 +290,16 @@ desc "GZip CSS"
 task :gzip_css do
   puts "## GZipping CSS"
   styles_dir = "#{public_dir}/stylesheets"
-  system "gzip -9 #{styles_dir}/all.#{asset_version}.css"
-  system "mv #{styles_dir}/all.#{asset_version}.css{.gz,}"
+  system "gzip -9 #{styles_dir}/all.css"
+  system "mv #{styles_dir}/all.css{.gz,}"
 end
 
 desc "GZip JS"
 task :gzip_js do
   puts "## GZipping JS"
   scripts_dir = "#{public_dir}/javascripts"
-  system "gzip -9 #{scripts_dir}/all.#{asset_version}.js"
-  system "mv #{scripts_dir}/all.#{asset_version}.js{.gz,}"
+  system "gzip -9 #{scripts_dir}/all.js"
+  system "mv #{scripts_dir}/all.js{.gz,}"
 end
 
 desc "GZip All"
@@ -311,17 +311,17 @@ task :update_asset_versions do
   # Replace instances of all.css and all.1234.css with all.{version}.css
   content = ''
   File.open("#{source_dir}/_includes/head.html", 'r') do |file|
-    content = file.read.gsub(/all(\.\d+)?\./, "all.#{asset_version}.")
+    content = file.read.gsub(/all(\.\d+)?\.css/, "all.css?v=#{asset_version}")
   end
   File.open("#{source_dir}/_includes/head.html", 'w') do |file|
     file.write(content)
   end
 
-  # _includes/after_footer.html  
+  # _includes/after_footer.html
   # Replace instances of all.js and all.1234.js with all.{version}.js
   content = ''
   File.open("#{source_dir}/_includes/after_footer.html", 'r') do |file|
-    content = file.read.gsub(/all(\.\d+)?\./, "all.#{asset_version}.")
+    content = file.read.gsub(/all(\.\d+)?\.js/, "all.js?v=#{asset_version}")
   end
   File.open("#{source_dir}/_includes/after_footer.html", 'w') do |file|
     file.write(content)
