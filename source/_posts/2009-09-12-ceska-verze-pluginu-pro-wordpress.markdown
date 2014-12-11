@@ -40,4 +40,4 @@ drwxr-xr-x 2 abtris 4.0K 2009-09-12 21:28 languages
 <p>Ukázka přeloženého widgetu dále, pokud máte nějaké připomínky k překladu neváhejte je také uvést v komentářích.</p>
 <p><strong>Moje nastavení widgetu pro WP-RecentComments</strong></p>
 <p>Nastavení najdete v administraci, Vzhled -&gt; Widgety. Přidáte widget do sidebaru a potom po kliknutí na pravou ikonku rozbalí se vám menu, kterou vidíte na obrázku.</p> 
-<p><img class="aligncenter size-full wp-image-666" src="http://blog.prskavec.net/wp-content/uploads/2009/09/Widgety-‹-Prskavčí-blog-—-WordPress_1252784358148.png" alt="Widgety ‹ Prskavčí blog — WordPress_1252784358148" width="268" height="672" /></p>
+<p><img class="aligncenter size-full wp-image-666" src="http://blog.prskavec.net/wp-content/uploads/2009/09/Widgety-‹-Prskavci-blog-—-WordPress_1252784358148.png" alt="Widgety ‹ Prskavčí blog — WordPress_1252784358148" width="268" height="672" /></p>
