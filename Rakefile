@@ -311,7 +311,7 @@ task :update_asset_versions do
   # Replace instances of all.css and all.1234.css with all.{version}.css
   content = ''
   File.open("#{source_dir}/_includes/head.html", 'r') do |file|
-    content = file.read.gsub(/all(\.\d+)?\.css/, "all.css?v=#{asset_version}")
+    content = file.read.gsub(/all\.css?v=(.\d+)/, "all.css?v=#{asset_version}")
   end
   File.open("#{source_dir}/_includes/head.html", 'w') do |file|
     file.write(content)
@@ -321,11 +321,11 @@ task :update_asset_versions do
   # Replace instances of all.js and all.1234.js with all.{version}.js
   content = ''
   File.open("#{source_dir}/_includes/after_footer.html", 'r') do |file|
-    content = file.read.gsub(/all(\.\d+)?\.js/, "all.js?v=#{asset_version}")
+    content = file.read.gsub(/all?\.js?=v(.\d+)/, "all.js?v=#{asset_version}")
   end
   File.open("#{source_dir}/_includes/after_footer.html", 'w') do |file|
     file.write(content)
-  end   
+  end
 end
 
 ##############
