@@ -3,7 +3,7 @@ layout: page
 title: Školení a kurzy
 ---
 
-Školení a kurzy dělám buď na míru. Pokud máte zájem o školení tak pošlete poptávku na [email](mailto:ladislav@prskavec.net).
+Školení a kurzy vám udělám na míru. Máte-li zájem o školení, pošlete svou poptávku na [email](mailto:ladislav@prskavec.net?subject=Popt%C3%A1vka%20-%20Kurzy%20Git%20a%20Jenkins).
 
 ## Git distribuovaný verzovací systém pro každého
 
@@ -22,12 +22,12 @@ Osnova:
 - Praktické využití Gitu nejenom pro programátory, verzovaní konfigurace a jiných dokumentů
 - Pokročilé funkce, práce s větvemi a více vzdálenými repositáři
 - Vlastní Git server ve firmě
-- Různé workflow a jejich nasazení v praxi
+- Pracovní workflow a jejich nasazení v praxi
 - Tipy a triky
 
 ## Jenkins – použití Continuous Integration engine
 
-Pochopení a využití procesu Continuous Integration s využitím nástroje Jenkins vám pomůže zvýšit kvalitu softwaru, který vyvíjíte, a zároveň snížit čas na jeho dodávku. Continuous Integration vám umožňuje kontrolovat kvalitu softwaru průběžně po malých částech a minimalizovat tak riziko rozsáhlých chyb, jak tomu bylo v případě klasického vodopádového přístupu.
+Pochopení a využití procesu Continuous Integration s využitím nástroje Jenkins vám pomůže zvýšit kvalitu softwaru, který vyvíjíte, zároveň sníží čas na jeho dodávku. Continuous Integration vám umožňuje kontrolovat kvalitu softwaru průběžně po malých částech a minimalizovat riziko rozsáhlých chyb, jak tomu bylo v případě klasického vodopádového přístupu.
 
 Školení se zaměřuje na PHP a [Javascript](http://bit.ly/LO7Bvd), ale znalosti jsou univerzálně použitelné pro další programovací jazyky.
 
@@ -53,6 +53,7 @@ Osnova:
 
 ## Docker
 
-Docker je revoluce v deploymentu, protože přinesl do IT to co kontejnery do logistiky v minulém století. V přednášce se si ukážeme možnosti co přináší lxc container a jaké rozdíly jsou proti VM, chroot a jiným řešením. Díky Dockeru budete moci si postavit vlastní PaaS nebo lehce použít některý založený na dockeru (Deis, Dokku, Cocaine, Flynn).
+Docker je open source projekt k zabalení, odeslání a spuštění jakékoliv aplikace jako kontejner.
+Ukážeme si možnosti, co přináší LXC container a jaké rozdíly jsou proti VM (virtual machines), chroot a jiným řešením. Docker umožňuje postavit vlastní PaaS (platform as service) nebo lehce použít některý založený na dockeru (Deis, Dokku, Cocaine, Flynn).
 
-V přípravě. V případě zájmu náváhejte mě [kontaktovat](mailto:ladislav@prskavec.net).
+V případě zájmu náváhejte mě [kontaktovat](mailto:ladislav@prskavec.net?subject=Popt%C3%A1vka%20%C5%A1kolen%C3%AD%20-%20Docker).
