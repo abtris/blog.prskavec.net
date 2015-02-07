@@ -36,8 +36,8 @@ Google Kubernetes je poměrně vyspělý nástroj používaný pro Google Cloud 
 
 Docker Swarm je nástroj pro řízení clusterů konteinerů přímo od Dockeru, ale kromě základních příkladů není k dispozici nic většího, poporuje několik discovery service (etcs, consul, zookeeper). Nevím o nikom, kdo by to používal ve větším měřítku.
 
-CoreOS Fleet je [systemd](https://coreos.com/using-coreos/systemd/) a [etcd](https://coreos.com/using-coreos/etcd/) a nemám s ním zkušenosti vůbec žádné. Projekty kolem [CoreOS](https://coreos.com/). 
+CoreOS Fleet je [systemd](https://coreos.com/using-coreos/systemd/) a [etcd](https://coreos.com/using-coreos/etcd/) a nemám s ním zkušenosti vůbec žádné. Projekty kolem [CoreOS](https://coreos.com/) jsou zajímavé. Mají vlastní technologii konteinerů [Rocket](https://coreos.com/blog/rocket/). 
 
-Stejně jako CoreOS snaží se o podobnou věc i [Project Atomic](http://www.projectatomic.io/) od RedHatu. Vytvořit základní systém pro práci s kontainery. 
+Stejně jako CoreOS snaží se o podobnou věc i [Project Atomic](http://www.projectatomic.io/) od RedHatu. Vytvořit základní systém pro práci s konteinery. 
 
 Závěr je asi takový, že pokud budete chtít řídít vlastní cluster asi zvolíte buď Messos nebo Kubernetes. Osobně asi budu volit Kubernetes, co vy?
