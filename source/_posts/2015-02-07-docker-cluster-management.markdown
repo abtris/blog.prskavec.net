@@ -13,12 +13,12 @@ Pokud by to někoho zajímalo, zkusím jsem shrnout s čím jsem se potkal a kde
 
 Nástroje, které můžete použít cluster management:
 
-- [Apache Messos](http://mesos.apache.org/) (java)
+- [Apache Mesos](http://mesos.apache.org/) (cpp, api for java, python, c++)
 - [Docker Swarm](https://github.com/docker/swarm/) (golang)
 - [CoreOS Fleet](https://coreos.com/using-coreos/clustering/) (golang)
 - [Google Kubernetes](http://kubernetes.io/) (golang)
 
-potom k tomu ješte patří některé frameworky pro Messos a to [Marathon](https://mesosphere.github.io/marathon/) a [Chronos](http://airbnb.github.io/chronos/).
+potom k tomu ješte patří některé frameworky pro Mesos a to [Marathon](https://mesosphere.github.io/marathon/) a [Chronos](http://airbnb.github.io/chronos/).
 
 Ještě potřebujete nástroj pro service discovery:
 
@@ -28,7 +28,7 @@ Ještě potřebujete nástroj pro service discovery:
 
 Etcd používá Kubernetes a další projekty. Service discovery je potřeba pro management clusteru. Můžete použít stejně jednoduše i ostatní projekty.
 
-Apache Messos umí pracovat s různorodým prostředím včetně Amazon ECS service. Framework Marathon vám potom slouží k pouštění dlouho běžících konteinerů pro aplikace a Chronos typicky pro batch processing například pro zpracování velkých dat. S Messosem musíte provozovat ZooKeeeper pro discovery service.
+Apache Mesos umí pracovat s různorodým prostředím včetně Amazon ECS service. Framework Marathon vám potom slouží k pouštění dlouho běžících konteinerů pro aplikace a Chronos typicky pro batch processing například pro zpracování velkých dat. S Mesosem musíte provozovat ZooKeeeper pro discovery service.
 
 Protože se snažím Javě vyhnout a raději volím nástroje v jiných jazycích, kde mám větší znalosti. Pro discovery service clusteru bych raději použil Consul nebo Etcd. 
 
@@ -40,4 +40,4 @@ CoreOS Fleet je [systemd](https://coreos.com/using-coreos/systemd/) a [etcd](htt
 
 Stejně jako CoreOS snaží se o podobnou věc i [Project Atomic](http://www.projectatomic.io/) od RedHatu. Vytvořit základní systém pro práci s konteinery. 
 
-Závěr je asi takový, že pokud budete chtít řídít vlastní cluster asi zvolíte buď Messos nebo Kubernetes. Osobně asi budu volit Kubernetes, co vy?
+Závěr je asi takový, že pokud budete chtít řídít vlastní cluster asi zvolíte buď Mesos nebo Kubernetes. Osobně asi budu volit Kubernetes, co vy?
