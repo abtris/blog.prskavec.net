@@ -6,6 +6,7 @@ comments: true
 categories: docker
 ---
 
+Update: přidal jsem do článku další věci zmíněné v komentářích, všem děkuji za příspěvky.
 
 V poslední době se zabývám technologiemi pro řízení clusterů s docker konteinery.
 
@@ -17,8 +18,9 @@ Nástroje, které můžete použít cluster management:
 - [Docker Swarm](https://github.com/docker/swarm/) (golang)
 - [CoreOS Fleet](https://coreos.com/using-coreos/clustering/) (golang)
 - [Google Kubernetes](http://kubernetes.io/) (golang)
+- [Spotify Helios](https://github.com/spotify/helios) (java)
 
-potom k tomu ješte patří některé frameworky pro Mesos a to [Marathon](https://mesosphere.github.io/marathon/) a [Chronos](http://airbnb.github.io/chronos/).
+potom k tomu ješte patří některé frameworky pro Mesos a to [Marathon](https://mesosphere.github.io/marathon/) a [Chronos](http://airbnb.github.io/chronos/). [A Kubernetes Framework for Apache Mesos](https://github.com/mesosphere/kubernetes-mesos).
 
 Ještě potřebujete nástroj pro service discovery:
 
