@@ -6,7 +6,8 @@ comments: true
 categories: docker
 ---
 
-Update: přidal jsem do článku další věci zmíněné v komentářích, všem děkuji za příspěvky.
+- Update: přidal jsem do článku další věci zmíněné v komentářích, všem děkuji za příspěvky.
+- Update 23.2.2015: Přidán odkaz na Centurion od New Relic
 
 V poslední době se zabývám technologiemi pro řízení clusterů s docker konteinery.
 
