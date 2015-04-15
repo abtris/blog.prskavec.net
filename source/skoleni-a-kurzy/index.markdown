@@ -55,6 +55,15 @@ Osnova:
 
 Docker je open source projekt k zabalení, odeslání a spuštění jakékoliv aplikace jako kontejner.
 
-Ukážeme si možnosti, co přináší LXC container a jaké rozdíly jsou proti VM (virtual machines), chroot a jiným řešením. Docker umožňuje postavit vlastní PaaS (platform as service) nebo lehce použít některý založený na dockeru (Deis, Dokku, Cocaine, Flynn).
+Osnova:
+
+- Instalace dockeru, provoz na platformách linux, mac a windows
+- Start prvního docker kontejneru
+- Výroba vlastních docker images s použitím Dockerfiles
+- Práce s Docker Hubem a jak na vlastní private docker registry
+- Nástroj docker-compose pro práci s kontejnery
+- Využití dockeru pro testování, sandboxing
+- Deployment aplikací pomocí dockeru
+
 
 V případě zájmu náváhejte mě [kontaktovat](mailto:ladislav@prskavec.net?subject=Popt%C3%A1vka%20%C5%A1kolen%C3%AD%20-%20Docker).
