@@ -24,6 +24,8 @@ Nástroje, které můžete použít cluster management:
 
 potom k tomu ješte patří některé frameworky pro Mesos a to [Marathon](https://mesosphere.github.io/marathon/) a [Chronos](http://airbnb.github.io/chronos/). [A Kubernetes Framework for Apache Mesos](https://github.com/mesosphere/kubernetes-mesos).
 
+<!-- more -->
+
 Ještě potřebujete nástroj pro service discovery:
 
 - [CoreOS Etcd](https://coreos.com/using-coreos/etcd/) (golang)

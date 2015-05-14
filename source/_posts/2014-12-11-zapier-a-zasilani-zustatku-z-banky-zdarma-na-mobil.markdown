@@ -9,6 +9,8 @@ categories: web
 ## Motivace
 Banky posílají změnu zůstatku emailem a SMS. Za SMS začínájí účtovat třeba i 2Kč což mi přijde fakt hrůza. Tak jsem si řekl jak dostat ten email do telefonu pomocí push notifikace, aby mě to nestálo moc peněz a dalo se případně používat univerzálně.
 
+<!-- more -->
+
 ## Pushover
 Služba [Pushover](https://pushover.net/) není zcela zdarma, ale zaplatíte jen jednorázově při nákupu aplikace nebo při aktivaci desktop notifkací. A získáte tím možnost zasílat notifikace skoro z čehokoliv a kam potřebujete. Můžete konfigurovat kdy nechcete být rušeni (noc, víkendy apod.). 
 
