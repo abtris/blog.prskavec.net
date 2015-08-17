@@ -13,7 +13,6 @@ Jeho znalost mezi vývojáři se v posledních letech značně vylepšila a stá
 
 Osnova:
 
-- Průběh kurzu
 - Verzovací systémy od historie až po současnost
 - Základní pojmy pro verzovací systémy
 - Instalace Git klienta pro všechny operační systémy
@@ -21,7 +20,7 @@ Osnova:
 - Práce z příkazové řádky a její využití na maximum
 - Praktické využití Gitu nejenom pro programátory, verzovaní konfigurace a jiných dokumentů
 - Pokročilé funkce, práce s větvemi a více vzdálenými repositáři
-- Vlastní Git server ve firmě
+- Vlastní Git server ve firmě nebo práce s Githubem (dle požadavků zadavatele)
 - Pracovní workflow a jejich nasazení v praxi
 - Tipy a triky
 
