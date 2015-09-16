@@ -21,7 +21,7 @@ Jako první jsem použil výchozí aplikaci od tvůrců a pustil tam jednu malou
 
 Tak jsem zapojil produkční aplikace. Počet requestů stoupl na 3000 req/min a aplikace začala mít značné problémy i když běžela na Performace-M dynu.
 
-{% img center /images/drain/01.png 'Heroku monitoring - NodeJS before optimalization' 'images' %}
+<a href="{{ root_url }}/images/drain/01.png"><img class="center" src="{{ root_url }}/images/drain/01.png" alt="Heroku monitoring - NodeJS before optimalization" /></a>
 
 ## Řešení
 
@@ -29,11 +29,11 @@ Po diagnostikování těchto problémů jsme se dali do [hledání memory leaks 
 
 Obě řešení zafungovala a za pár hodin práce jsme měli už přijatelné výsledky v NodeJS. Mohli jsme snížit používaná dyna na běžné `1X` a tam provádět další srovnání.
 
-{% img center /images/drain/02.png 'Heroku monitoring - NodeJS' 'images' %}
+<a href="{{ root_url }}/images/drain/02.png"><img class="center" src="{{ root_url }}/images/drain/02.png" alt="Heroku monitoring - NodeJS" /></a>
 
 Verze v go langu je na tom ještě trochu lépe hlavně s ohledem na stabilitu a pamět. Tuto verzi jsme nechali potom trvale v běhu na nejmenším dynu k dispozici s monitoringem.
 
-{% img center /images/drain/03.png 'Heroku monitoring - Go lang' 'images' %}
+<a href="{{ root_url }}/images/drain/03.png"><img class="center" src="{{ root_url }}/images/drain/03.png" alt="Heroku monitoring - Go lang" /></a>
 
 ## Závěr
 
