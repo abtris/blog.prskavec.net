@@ -6,7 +6,7 @@ comments: true
 categories:
 ---
 
-# Datadog a log parsing service
+## Datadog a log parsing service
 
 Pro používání [Datadog](https://www.datadoghq.com/) na [Heroku](https://heroku.com) je potřeba několik věcí.
 Za prvé, pro datadog agenta potřebujete [custom buildpack](https://github.com/miketheman/heroku-buildpack-datadog.git), který v kombinaci s vaším buildpackem vám umožní mít vše pohromadě. Pokud to nechcete můžete udělat samostatnou service přes kterou se dají parsovat logy pomocí této [knihovny v NodeJS](https://github.com/ozinc/heroku-datadog-drain).
