@@ -13,6 +13,7 @@ Za prvé, pro datadog agenta potřebujete [custom buildpack](https://github.com/
 Pokud chcete do Datadogu zapisovat deploy na Heroku použijte [emailový post deploy hook](https://devcenter.heroku.com/articles/deploy-hooks#email).
 Aplikaci a její metriky můžete posílat přes Datadog API.
 
+<!-- more -->
 
 ## Začátek
 
