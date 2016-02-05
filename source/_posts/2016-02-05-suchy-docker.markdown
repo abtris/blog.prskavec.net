@@ -8,7 +8,10 @@ categories: docker
 
 [Suchý únor](http://suchejunor.cz/) je skvělá akce a tak jsem říkal, zda s Dockerem nebudeme také na suchu. Našťěstí včera se situace změnila a vyšli nové verze Docker Engine, Docker Swarm and Docker Compose.
 
-Pokud budete upgradovat, buďte opatrní, [nový formát image není zpětně kompatibilní](https://docs.docker.com/engine/breaking_changes/).
+
+{% blockquote Docker docs https://docs.docker.com/engine/breaking_changes/ %}
+Pokud budete upgradovat, buďte opatrní, nový formát image není zpětně kompatibilní.
+{% endblockquote %}
 
 V originálu si novinky můžete prostudovat na blogu Dockeru:
 
@@ -57,7 +60,8 @@ services:
 
 Migrace většinou nebude [složitá](https://docs.docker.com/compose/compose-file/#upgrading), stačí přidat `version: 2` a `services:` na začátek a odsadit.
 
-Nové vlastnosti:
+### Nové vlastnosti
+
 - nový příkaz `events` stejný jako [`docker events`](https://docs.docker.com/engine/reference/commandline/events/)
 - nový příkaz `config` pro validaci `docker-compose.yml` včetně interpolací a použítí extendu
 - nový příkaz `create` pro vytvoření kontejnerů bez spuštění
@@ -77,3 +81,6 @@ Spousta drobných změn, které mi nepřišli už důležité.
 ## Závěr
 
 Každý release přinese spoustu změn. Celý ekosystém dockeru je poměrně mladý, ale o to [více dynamický](https://twitter.com/icecrime/status/694558000615288834).
+
+V Praze se každý měsíc konají [docker meetupy](http://www.meetup.com/Docker-Prague-Czech-Republic/), pokud vás tato problematika zajímá. Přijďte nebo nabídněte svoji přednášku pořadatelům.
+
