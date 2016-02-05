@@ -42,7 +42,7 @@ Další změny se týkají bezpečnosti. Podpora [seccomp profiles](https://en.w
 
 Nový formát [version 2](https://docs.docker.com/compose/compose-file/#version-2) pro `docker-compose.yml`.
 
-```docker-compose
+```yml
 version: '2'
 services:
   web:
