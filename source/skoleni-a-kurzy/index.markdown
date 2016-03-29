@@ -24,31 +24,21 @@ Osnova:
 - Pracovní workflow a jejich nasazení v praxi
 - Tipy a triky
 
-## Jenkins – použití Continuous Integration engine
+## Jenkins 2.0 – použití Continuous Integration engine
 
 Pochopení a využití procesu Continuous Integration s využitím nástroje Jenkins vám pomůže zvýšit kvalitu softwaru, který vyvíjíte, zároveň sníží čas na jeho dodávku. Continuous Integration vám umožňuje kontrolovat kvalitu softwaru průběžně po malých částech a minimalizovat riziko rozsáhlých chyb, jak tomu bylo v případě klasického vodopádového přístupu.
 
-Školení se zaměřuje na PHP a [Javascript](http://bit.ly/LO7Bvd), ale znalosti jsou univerzálně použitelné pro další programovací jazyky.
+Školení se zaměřuje na PHP, Ruby, Go a [Javascript](http://bit.ly/LO7Bvd), ale znalosti jsou univerzálně použitelné pro další programovací jazyky.
 
 Osnova:
 
-- Automatizace buildu (Ant, Phing)
-- Instalace PHP QA nástrojů
-- Instalace nástrojů pro Javascript (nodejs, phantomjs, npm)
-- Instalace Jenkins
-- Unit testy (PHPUnit, Qunit)
-- BDD testy (Behat, Jasmine)
-- Vytváření Jenkins jobů
-- API Dokumentace (phpdoc2, docco, jsdoc)
-- Softwarové metriky
-- Duplicitní kód
-- Coding standard
-- Agregace výsledků
-- PHP Project Wizard
-- Template pro Jenkins joby (PHP Project)
-- Testování
-- Continuous Deployment
-- Integrace vlastního projektu
+- Jenkins 2.0
+- Pipeline as Code
+- Pipeline Stage View
+- Using Docker in Jenkins
+- Automate everything
+
+**Jenkins 2.0 je v betě, ale vzhledem ke kompatibilitě obou verzí je možné ho testovat už teď. Pipeline plugin je dostupný i pro verzi 1.0.**
 
 ## Docker
 
