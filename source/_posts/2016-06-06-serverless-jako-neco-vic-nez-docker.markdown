@@ -8,7 +8,7 @@ categories: serverless, aws
 
 ## Serverless
 
-Zkusím popsat co je to serverless trochu lidsky. Samotné bez serveru je asi moc široký pojem. Pokud se podíváte na [Awesome Serverless](https://github.com/anaibol/awesome-serverless) najdete zde všechno možné od databází jako Firebase, Hoodie, které poskytují frontendovým aplikacím vše co potřebují k běhu, až k systémům, které vám umožňují více než stávající řešení na principu virtuálních serverů. O těch se hodně mluví a nejstarší z nich je AWS Lambda.
+Zkusím popsat co je to serverless trochu lidsky. Samotné bez serveru je asi moc široký pojem. Pokud se podíváte na [Awesome Serverless](https://github.com/anaibol/awesome-serverless) najdete zde všechno možné od databází jako [Firebase](https://firebase.google.com/), [Hoodie](http://hood.ie/), které poskytují frontendovým aplikacím vše co potřebují k běhu, až k systémům, které vám umožňují více než stávající řešení na principu virtuálních serverů. O těch se [hodně mluví](https://twitter.com/search?q=%23serverless&src=typd&lang=en) a nejstarší z nich je [Amazon Web Service Lambda](https://aws.amazon.com/lambda/details/).
 
 AWS příšlo se základním systémem v roce [2014](https://aws.amazon.com/blogs/aws/run-code-cloud/) a postupně to rozšiřovali, přidali v roce 2015 [AWS Gateway](https://aws.amazon.com/blogs/aws/amazon-api-gateway-build-and-run-scalable-application-backends/) a dnes je systém celkem dobře použitelný a vzniklo i několik frameworků ([Serverless](http://serverless.com/), [Apex](http://apex.run/) a [Flourish](http://thenewstack.io/amazon-debuts-flourish-runtime-application-model-serverless-computing/)).
 
@@ -29,4 +29,4 @@ Například si můžete udělat vlastní [GraphQL server](https://github.com/ser
 Před nedávnem se konala i [specializovaná konference](http://serverlessconf.io/) na toto téma.
 
 ## PragueJS o Serverless
-Pokud vás to zaujalo, přijďte si poslechnout nejen moji přednášku o Serverless na meetup 30.6.2016 do kanceláří STRV. Registrace je na [evetbrite](https://www.eventbrite.com/edit?eid=25563194202).
+Pokud vás to zaujalo, přijďte si poslechnout nejen moji přednášku o Serverless na meetup 30.6.2016 do kanceláří STRV. Registrace je na [eventbrite](https://www.eventbrite.com/edit?eid=25563194202).
