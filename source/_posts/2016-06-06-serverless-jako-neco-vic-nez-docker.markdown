@@ -29,4 +29,4 @@ Například si můžete udělat vlastní [GraphQL server](https://github.com/ser
 Před nedávnem se konala i [specializovaná konference](http://serverlessconf.io/) na toto téma.
 
 ## PragueJS o Serverless
-Pokud vás to zaujalo, přijďte si poslechnout nejen moji přednášku o Serverless na meetup 30.6.2016 do kanceláří STRV. Registrace je na [eventbrite](https://www.eventbrite.com/edit?eid=25563194202).
+Pokud vás to zaujalo, přijďte si poslechnout nejen moji přednášku o Serverless na meetup 30.6.2016 do kanceláří STRV. Registrace je na [eventbrite](https://www.eventbrite.com/e/serverless-architecture-and-usage-tickets-25563194202?utm_source=prskavec-blog).
