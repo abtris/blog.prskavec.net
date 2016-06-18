@@ -255,7 +255,7 @@ task :minify_js do
   puts "## Minifying JS"
   input = "#{source_dir}/javascripts/all.js"
   output = "#{source_dir}/javascripts/all.js"
-  system "uglifyjs #{input} > #{output}"
+  # system "uglifyjs #{input} > #{output}"
   Dir.glob("#{source_dir}/javascripts/all.*").each do |f|
     FileUtils.mv(f, "#{public_dir}/javascripts")
   end
@@ -370,7 +370,7 @@ desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
-  cd "#{deploy_dir}" do 
+  cd "#{deploy_dir}" do
     Bundler.with_clean_env { system "git pull" }
   end
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
