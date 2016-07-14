@@ -12,7 +12,7 @@ Celá konference byla ve 4 sálech a to jeden hlavní, který se po keynote rozd
 
 ## Co to SRE je?
 
-Pokud nevíte co je SRE, tak existuje skvělá kniha [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do) od lidí z Googlu, kde se všechno detailně vysvětluje a skoro každý přenášející něco z knihy citoval. Je to taková bible SRE a vůbec první kniha zastřešujíc tento obor.
+Pokud nevíte [co to je SRE](http://blog.prskavec.net/2016/03/co-to-je-sre/), tak kromě mého článku existuje skvělá kniha [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do) od lidí z Googlu, kde se všechno detailně vysvětluje a skoro každý přenášející něco z knihy citoval. Je to taková bible SRE a vůbec první kniha zastřešujíc tento obor.
 
 <!-- more -->
 
