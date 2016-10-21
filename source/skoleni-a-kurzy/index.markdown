@@ -32,13 +32,13 @@ Pochopení a využití procesu Continuous Integration s využitím nástroje Jen
 
 Osnova:
 
-- Jenkins 2.0
-- Pipeline as Code
-- Pipeline Stage View
-- Using Docker in Jenkins
-- Automate everything
-
-**Jenkins 2.0 je v betě, ale vzhledem ke kompatibilitě obou verzí je možné ho testovat už teď. Pipeline plugin je dostupný i pro verzi 1.0.**
+- Continuous Delivery (CD) and Continuous Integration (CI) concepts
+- Core Jenkins concepts
+- Practical Jenkins usage
+- How make CI/CD in Jenkins
+- Continuous Delivery Pipelines
+- Best Practices
+- Automation
 
 ## Docker
 
