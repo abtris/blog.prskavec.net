@@ -28,7 +28,7 @@ Osnova:
 
 Pochopení a využití procesu Continuous Integration s využitím nástroje Jenkins vám pomůže zvýšit kvalitu softwaru, který vyvíjíte, zároveň sníží čas na jeho dodávku. Continuous Integration vám umožňuje kontrolovat kvalitu softwaru průběžně po malých částech a minimalizovat riziko rozsáhlých chyb, jak tomu bylo v případě klasického vodopádového přístupu.
 
-Školení se zaměřuje na PHP, Ruby, Go a [Javascript](http://bit.ly/LO7Bvd), ale znalosti jsou univerzálně použitelné pro další programovací jazyky.
+Školení používá ukázky v PHP, Ruby, Go a [Javascript](http://bit.ly/LO7Bvd) a operační systém MacOS X nebo Linux.
 
 Osnova:
 
@@ -38,7 +38,8 @@ Osnova:
 - How make CI/CD in Jenkins
 - Continuous Delivery Pipelines
 - Best Practices
-- Automation
+- Automation using Ansible
+- Docker in Jenkins
 
 ## Docker
 
