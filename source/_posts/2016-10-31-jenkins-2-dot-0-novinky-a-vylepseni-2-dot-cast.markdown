@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Jenkins 2.0 - novinky a vylepšení - 2.část"
-date: 2016-10-28 10:26
+date: 2016-10-31 10:26
 comments: true
-categories:
+categories: jenkins
 ---
 
 V minulé části jsem probíral proč je důležité mít definice v souboru a proč potřebujeme Continues Delivery Pipelines.
@@ -28,7 +28,7 @@ Poslední věc je podpora Dockeru. V Jenkinsu je několik pluginů pro Docker. V
 
 ![](/images/jenkins//docker-build-env.png)
 
-Takto se docker popíše v pipelines.
+Takto se docker popíše v Jenkins pipelines.
 
 ```groovy
 node('docker') {
@@ -44,4 +44,6 @@ node('docker') {
 
 Hostované řešení jako je TravisCI nebo CircleCI mají výhodu pokud potřebujete začít. Ale postupem, když máte více lidí nebo potřebujete větší flexibilitu tak se můžete dostat do potíží. Jenkins je náročnější na údržbu, ale umožňuje velkou flexibilitu.
 
-Je potom na vás jaké máte potřeby a co potřebujete od vašeho continues integration engine.
+## Shrnutí
+
+Jenkins 2 přinesl deklarativní popis, lepší bezpečnost a stále zachoval zpětnou kompatibilitu. Vylepšené UI a tady se stále pracuje na dalších vylepšeních (Blue Ocean). S Blue Ocean potom přijde deklarativní popis continues delivery pipelines a také by měl tam být online visual editor pro pipelines. Na další rok mají plány také na přidání Configuration API a myslím, že by mohl Blue Ocean v budoucnu uplně nahradit dnešní UI a zároveň otevřít cestu pro to například kompletně používat Jenkins bez UI. Uvidíme jak to bude dlouho trvat, každopádně se už teď těším na další novinky.
