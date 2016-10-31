@@ -20,6 +20,8 @@ V Jenkinsu je podpora pro distribuované agenty, dnes můžete mít jednotlivé 
 
 Aby jste byli schopni dosáhnou kvalitního autoscalingu za velmi dobrou cenu dají se velmi dobře využít [spot instance](https://aws.amazon.com/ec2/spot/) od AWS. Můžete ušetřit až 90% nákladů oproti normálním instancím.
 
+<!-- more -->
+
 Pokud provozujete vlastní Jenkins je potřeba vyřešit cache, ideální řešení je [JFrog Artifactory](https://www.jfrog.com/artifactory/), které podporuje caching pro velké množství vývojových nástrojů. Bohužel toto řešení poměrně drahé. Ale existuje [Nexus repository](http://www.sonatype.org/nexus/), které má komunitní verzi. Ale bohužel v Nexus OSS chybí například podpora pro PHP Composer.
 
 Matrix buildy jsou potřeba v Jenkinsu se jim říká Multi-configuration project. Můžete tu vytvořit vlatní matice podle čeho chcete a Jenkins vygeneruje potřebné projekty s parametry které potřebujete, podobně jako když by jste použili [Job DSL plugin](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin). To se hodí od testovaní různých verzí operačního systému, verzí programovacího jazyka apod.
