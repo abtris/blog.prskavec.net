@@ -26,8 +26,6 @@ Matrix buildy jsou potřeba v Jenkinsu se jim říká Multi-configuration projec
 
 Poslední věc je podpora Dockeru. V Jenkinsu je několik pluginů pro Docker. Využití může být také různé. Buď to použijete na vytvoření agentů nebo přímo můžete pouštět projekt v docker containeru. Bohužel toto funguje spolehlivě jen na linuxu.
 
-![](/images/jenkins//docker-build-env.png)
-
 Takto se docker popíše v Jenkins pipelines.
 
 ```groovy
