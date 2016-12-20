@@ -98,6 +98,10 @@ pipeline {
 
 Celou syntaxi si můžete prohlédnout [v dokumentaci](https://github.com/jenkinsci/pipeline-model-definition-plugin/blob/master/SYNTAX.md).
 
-Hlavní rozdíl je v tom, že přidali další bloky jako je hlavní `pipelines` a je potřeba deklarovat vždy agenta, který může být v různém formátu. Taky se vyměnilo nazvosloví a z `node` je vlastně `agent`. Můžete pustit celý byl jednoduše například v dockeru pomocí: `agent docker:'node:6.3'` nebo pokud nechcete to řešit tak můžete dát `agent any` jako já, co se hodí například pro lokální testování a není to rozhodně vhodné pro nějaké větší nasazení, kdy potřebujete orchestrovat jednotlivé agenty. Deklarace `environment` na začátku zpřehledňuje celý zápis. Každá `stage` má teď `steps`, které dřívě nebyli.
+Hlavní rozdíl je v tom, že přidali další bloky jako je hlavní `pipelines` a je potřeba deklarovat vždy agenta, který může být v různém formátu. Vyměnilo nazvosloví a z `node` je `agent`.
+
+Build můžete pustit jednoduše například v Dockeru pomocí: `agent docker:'node:6.3'` nebo pokud nechcete to řešit tak můžete dát `agent any` jako v příkladu, to se hodí například pro lokální testování a není to rozhodně vhodné pro nějaké větší nasazení, kdy potřebujete orchestrovat jednotlivé agenty.
+
+Deklarace `environment` na začátku zpřehledňuje celý zápis a každá `stage` má teď `steps`, které jsou nové. Přidali sekci `post`, která má kroky `always`, `success` a `failure` pro ošetření konce buildu a poslání notifikací. Nechybí ani `options`, `parameters` a `triggers`, kde nastavíte co potřebujete.
 
 I když celý tento projekt v beta fázi, přijde mi to jako krok správným směrem a spolu s čím dál lepším [Blue Ocean](https://jenkins.io/blog/2016/05/26/introducing-blue-ocean/) to bude příští rok hlavní novinka v Jenkinsu.
