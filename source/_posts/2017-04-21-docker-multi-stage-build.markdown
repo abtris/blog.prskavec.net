@@ -67,7 +67,8 @@ Výsledné image potom vypadají takto:
 
 ```
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-drain               latest              bd90aaa048dc        13 hours ago        10M
+drain               latest              7a7abced7a9d        6 seconds ago       10MB
+<none>              <none>              edabce509d75        7 seconds ago       752MB
 golang              1.8                 c0ccf5f2c036        13 days ago         703MB
 ```
 
