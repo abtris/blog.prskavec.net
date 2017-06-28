@@ -8,9 +8,7 @@ categories: jamstack
 
 Co to je [JAM Stack](https://jamstack.org/)? To je pojmenování moderního způsobu jak vytvářet weby pomocí clientského Javascriptu, API a Markupu.
 
-Tento stack není žádná novinka, ale dlouho chybělo dobré pojmenování. Sám si pamatuji jak kolegové v pracovali na stejné koncepci. Jako CMS použili Wordpress, ale nechtěli jsme ho z bezpečnostních a výkonostních důvodů použít přímo na produkci. Tak se použilo jen API Wordpressu pro vytvoření stránek.
-
-Nejlepší příklad podle mne je přechod [Smashing magazine](https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/) na JAM Stack. 
+Tento stack není žádná novinka, ale dlouho chybělo dobré pojmenování. Nejlepší příklad většího použití podle mne je přechod [Smashing Magazine](https://www.smashingmagazine.com/), který pěkně poslali v [článku](https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/).
 
 Nejdůležitější věci co definují JAMstack:
 
