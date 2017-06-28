@@ -1,0 +1,37 @@
+---
+layout: post
+title: "JAM stack"
+date: 2017-06-28 15:26
+comments: true
+categories: jamstack
+---
+
+Co to je [JAM Stack](https://jamstack.org/)?  To je pojmenování moderního způsobu jak vytvářet weby pomocí clientského Javascriptu, API a Markupu.
+
+Tento stack není žádná novinka, ale dlouho chybělo dobré pojmenování. Sám si pamatuji jak kolegové v pracovali na stejné koncepci. Jako CMS použili Wordpress, ale nechtěli jsme ho z bezpečnostních a výkonostních důvodů použít přímo na produkci. Tak se použilo jen API Wordpressu pro vytvoření stránek.
+
+Nejlepší příklad podle mne je přechod [Smashing magazine](https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/) na JAM Stack.
+
+<!-- more -->
+
+## Javascript
+
+SPA CMS a dalsi ...
+
+## API
+
+Podpora API a Serverless ...
+
+## Markup 
+
+Statické generátory a podpora pro Markdown je 
+
+
+## Zdroje:
+
+- [Netlify CMS - An open-source CMS for your Git workflow](https://www.netlifycms.org/)
+- [Top Open-Source Static Site Generators](https://www.staticgen.com/)
+- [A List of Content Management Systems for JAMstack Sites](https://headlesscms.org/)
+- [Serverless architecture to the WordPress platform](https://getshifter.io)
+- [A full-featured CMS for your static site with support for Jekyll, Hugo and Git](https://forestry.io)
+- [Javascript Shopping Cart](https://snipcart.com)
