@@ -7,6 +7,7 @@ title: Přednášky
 
 * 15.10.2017 [jOpenSpace 2017](http://www.jopenspace.cz/) - JAMstack ([slides](https://speakerdeck.com/abtris/jamstack))
 * 27.4.2017 CircleCI 2.0 First steps in Beta ([slides](https://speakerdeck.com/abtris/circleci-2-dot-0-first-steps-in-beta))
+* 17.1.2017 Zonky, SRE in Startup ([slides](https://www.slideshare.net/ladislavprskavec/sre-in-startup))
 
 ## 2016
 
